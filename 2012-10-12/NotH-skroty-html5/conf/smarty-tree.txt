@@ -1,0 +1,9 @@
+Podstawowe
+	{$}|smarty_variable
+	{* *}|smarty_comment
+	if|smarty_if
+	if-else|smarty_if_else
+	if-elseif|smarty_if_else_if
+	section|smarty_section
+	foreach|smarty_foreach
+	include|smarty_include

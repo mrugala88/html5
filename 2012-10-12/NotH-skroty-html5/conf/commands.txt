@@ -1,0 +1,21 @@
+#Plik, który mówi o dostêpnych zestawach komend
+
+#Format
+#Ka¿da linia to:
+
+#Nazwa	prefiks	lista_rozszerzeñ
+
+#gdzie
+# Nazwa - wyœwietlana w programie nazwa zestawu komend
+# prefix - przedrostek dodawany do plików zawieraj¹cych zbiór komend, skrótów oraz wygl¹d drzewa
+# lista_rozszerzeñ - lista rozszerzeñ plików, do których ma byæ stosowany ten zbiór komend. Separatorem jest przecinek
+
+XHTML	xhtml	html,htm,xhtml
+CSS	css	css
+
+PHP	php	php
+Smarty	smarty	tpl
+
+XML	xml	xml
+
+TXT	txt	txt

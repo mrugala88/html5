@@ -1,0 +1,317 @@
+#
+# Komendy HTML 5
+#
+# Struktura pliku:
+#    # - komentarz jednolinijkowy
+#    linie puste ignorujemy
+#
+# Wpisy:
+#    identyfikator     tekst
+#
+#
+# Separatorem kolumn jest znak tabulacji.
+# Znak tabulacji nie jest u¿yty w polach: identyfikator, tekst.
+#
+# Przyk³adowy wpis:
+#
+#    html_head		<html>\n|^\n</html>
+#
+#
+# Znaki specjalne u¿yte w polu tekst:
+#
+#    znak  \n  - z³amanie wiersza
+#    znak  \t  - wciêcie
+#    znak  |   - po³o¿enie kursora po wstawieniu skrótu (jeœli zaznaczony by³ blok - to nie dzia³a)
+#    znak  ^   - miejsce umieszczenia bloku jeœli by³ zaznaczony
+
+
+html5_comment	<!--  |^  -->
+
+html5_entity_amp	&amp;|^
+html5_entity_nbsp	&nbsp;|^
+html5_entity_lt	&lt;|^
+html5_entity_gt	&gt;|^
+html5_entity_copy	&copy;|^
+html5_entity_quot	&quot;|^
+html5_entity_apos	&#39;|^
+html5_entity_bdquo	&bdquo;|^
+html5_entity_rdquo	&rdquo;|^
+html5_entity_hellip	&hellip;|^
+html5_entity_times	&times;|^
+html5_entity_ndash	&ndash;|^
+html5_entity_mdash	&mdash;|^
+html5_entity_uarr	&uarr;|^
+html5_entity_rarr	&rarr;|^
+html5_entity_darr	&darr;|^
+html5_entity_larr	&larr;|^
+html5_entity_pair_tag	&lt;|^&gt;
+html5_entity_pair_plquote	&bdquo;|^&rdquo;
+
+
+html5_entity_de_auml	&auml;|^
+html5_entity_de_auml2	&Auml;|^
+html5_entity_de_ouml	&ouml;|^
+html5_entity_de_ouml2	&Ouml;|^
+html5_entity_de_uuml	&uuml;|^
+html5_entity_de_uuml2	&Uuml;|^
+html5_entity_de_szlig	&szlig;|^
+
+
+html5_entity_pl_0105	&#x0105;|^
+html5_entity_pl_0104	&#x0104;|^
+html5_entity_pl_0107	&#x0107;|^
+html5_entity_pl_0106	&#x0106;|^
+html5_entity_pl_0119	&#x0119;|^
+html5_entity_pl_0118	&#x0118;|^
+html5_entity_pl_0142	&#x0142;|^
+html5_entity_pl_0141	&#x0141;|^
+html5_entity_pl_0144	&#x0144;|^
+html5_entity_pl_0143	&#x0143;|^
+html5_entity_pl_003	&#x00f3;|^
+html5_entity_pl_003	&#x00d3;|^
+html5_entity_pl_015	&#x015b;|^
+html5_entity_pl_015	&#x015a;|^
+html5_entity_pl_017	&#x017a;|^
+html5_entity_pl_0179	&#x0179;|^
+html5_entity_pl_017	&#x017c;|^
+html5_entity_pl_017	&#x017b;|^
+
+
+html5_entity_fr_agrave	&agrave;|^
+html5_entity_fr_agrave2	&Agrave;|^
+html5_entity_fr_acirc	&acirc;|^
+html5_entity_fr_acirc2	&Acirc;|^
+html5_entity_fr_ccedil	&ccedil;|^
+html5_entity_fr_ccedil2	&Ccedil;|^
+html5_entity_fr_eacute	&eacute;|^
+html5_entity_fr_eacute2	&Eacute;|^
+html5_entity_fr_egrave	&egrave;|^
+html5_entity_fr_egrave2	&Egrave;|^
+html5_entity_fr_ecirc	&ecirc;|^
+html5_entity_fr_ecirc2	&Ecirc;|^
+html5_entity_fr_icirc	&icirc;|^
+html5_entity_fr_icirc2	&Icirc;|^
+html5_entity_fr_iuml	&iuml;|^
+html5_entity_fr_iuml2	&Iuml;|^
+html5_entity_fr_ocirc	&ocirc;|^
+html5_entity_fr_ocirc2	&Ocirc;|^
+html5_entity_fr_ucirc	&ucirc;|^
+html5_entity_fr_ucirc2	&Ucirc;|^
+
+
+html5_doctype_1_0_strict	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">|^	B
+html5_doctype_1_0_transitional	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">|^	B
+html5_doctype_1_0_frameset	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">|^	B
+
+
+html5_meta_charset_iso_8859_2	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />|^	B
+html5_meta_charset_windows_1250	<meta http-equiv="Content-Type" content="text/html; charset=windows-1250" />|^	B
+html5_meta_charset_utf_8	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />|^	B
+
+
+html5_element_html	<html>\n|^\n</html>	B
+html5_element_html_with_ns	<html xmlns="http://www.w3.org/1999/xhtml">\n  |^\n</html>	B
+html5_element_html_with_ns_lang_pl	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">\n  |^\n</html>	B
+html5_element_head	<head>\n|^\n</head>	B
+html5_element_title	<title>|^</title>	B
+html5_element_body	<body>\n|^\n</body>	B
+html5_element_address	<address>|^</address>	B
+
+
+html5_element_div	<div>\n|^\n</div>
+html5_element_span	<span>|^</span>
+
+
+html5_element_h1	<h1>|^</h1>
+html5_element_h2	<h2>|^</h2>
+html5_element_h3	<h3>|^</h3>
+html5_element_h4	<h4>|^</h4>
+html5_element_h5	<h5>|^</h5>
+html5_element_h6	<h6>|^</h6>
+
+
+html5_element_p	\n<p>\n|^\n</p>\n
+
+html5_element_em	<em>|^</em>
+html5_element_strong	<strong>|^</strong>
+html5_element_dfn	<dfn>|^</dfn>
+html5_element_code	<code>|^</code>
+html5_element_samp	<samp>|^</samp>
+html5_element_kbd	<kbd>|^</kbd>
+html5_element_var	<var>|^</var>
+html5_element_cite	<cite>|^</cite>
+html5_element_abbr	<abbr title="">|^</abbr>
+html5_element_abbr2	<abbr title="" lang="">|^</abbr>
+html5_element_acronym	<acronym title="">|^</acronym>
+html5_element_acronym2	<acronym title="" lang="en">|^</acronym>
+
+
+html5_element_q	<q>|^</q>
+html5_element_blockquote	<blockquote>\n    |^\n</blockquote>
+
+
+html5_element_sub	<sub>|^</sub>
+html5_element_sup	<sup>|^</sup>
+
+html5_element_br	^<br />|
+html5_element_pre	\n<pre>\n|^\n</pre>\n
+
+# s. 99
+html5_element_ins	<ins>|^</ins>	B
+html5_element_del	<del>|^</del>	B
+
+
+html5_element_ul	<ul>\n|^\n</ul>	B
+html5_element_ol	<ol>\n|^\n</ol>	B
+html5_element_li	<li>|^</li>
+html5_element_dl	<dl>\n|^\n</dl>	B
+html5_element_dt	<dt>|^</dt>
+html5_element_dd	<dd>|^</dd>
+
+
+html5_element_table	<table>\n    |^\n</table>	B
+html5_element_tr	<tr>\n    |^\n</tr>
+html5_element_td	<td>|^</td>
+html5_element_th_row	<th scope="row">|^</th>
+html5_element_th_col	<th scope="col">|^</th>
+html5_element_th	<th>|^</th>
+html5_element_caption	<caption>|^</caption>
+html5_element_thead	<thead>\n    |^\n</thead>
+html5_element_tfoot	<tfoot>\n    |^\n</tfoot>
+html5_element_tbody	<tbody>\n    |^\n</tbody>
+html5_element_col	<col />|^
+html5_element_colgroup	<colgroup>\n    |^\n</colgroup>
+
+
+html5_prefabrykat_theadtfoottbody	<thead>\n    |^\n</thead>\n<tfoot>\n    \n</tfoot>\n<tbody>\n    \n</tbody>	B
+html5_prefabrykat_tabela1	<table summary="|^">\n    <tr>\n        <th></th>\n        <th></th>\n    </tr>\n    <tr>\n        <td></td>\n        <td></td>\n    </tr>\n</table>	B
+html5_prefabrykat_tabela2	<table summary="|^">\n    <tr>\n        <th scope="col"></th>\n        <th scope="col"></th>\n    </tr>\n    <tr>\n        <th scope="row"></th>\n        <th></th>\n    </tr>\n</table>	B
+html5_prefabrykat_tabela3	<table summary="">\n    <caption></caption>\n    <thead>\n        <tr>\n            <th scope="col"></th>\n            <th scope="col"></th>\n        </tr>\n    </thead>\n    <tfoot>\n        <tr>\n            <th scope="col"></th>\n            <th scope="col"></th>\n        </tr>\n    </tfoot>\n    <tbody>\n        <tr>\n            <th scope="row"></th>\n            <td></td>\n        </tr>\n    </tbody>\n</table>	B
+html5_prefabrykat_tabela4	<table summary="|^">\n    <caption></caption>\n    \n    <colgroup id="k1">\n        <!--  kolumna pierwsza  -->\n    </colgroup>\n    <colgroup id="k2">\n        <!--  zgrupowane kolumny druga i trzecia -->\n        <col />\n        <col />\n    </colgroup>\n    <colgroup span="3" id="k3">\n        <!--  zgrupowane kolumny czwarta, pi¹ta i szósta -->\n    </colgroup>    \n    \n    <thead>\n        <tr>\n            <th scope="col"></th>\n            <th scope="col"></th>\n            <th scope="col"></th>\n            <th scope="col"></th>\n            <th scope="col"></th>\n            <th scope="col"></th>\n        </tr>\n    </thead>\n    <tfoot>\n        <tr>\n        <tr>\n            <th scope="col"></th>\n            <th scope="col"></th>\n            <th scope="col"></th>\n            <th scope="col"></th>\n            <th scope="col"></th>\n            <th scope="col"></th>\n        </tr>\n        </tr>\n    </tfoot>\n    <tbody>\n        <tr>\n            <th scope="row"></th>\n            <td></td>\n            <td></td>\n            <td></td>\n            <td></td>\n            <td></td>\n        </tr>\n    </tbody>\n</table>
+
+
+html5_element_a	<a href="|">^</a>
+html5_element_link	<link href="^|" />
+html5_element_base	<base href="^|" />
+html5_element_a2	<a href="^|">^</a>
+
+
+html5_element_link_alternate	<link rel="alternate" href="^|" type="application/rss+xml" title="RSS" />	B
+html5_element_link_stylesheet	<link rel="stylesheet" href="^|" type="text/css" />	B
+html5_element_link_start	<link rel="start" href="^|" title="" />	B
+html5_element_link_next	<link rel="next" href="^|" title="" />	B
+html5_element_link_prev	<link rel="prev" href="^|" title="" />	B
+html5_element_link_contents	<link rel="contents" href="^|" title="" />	B
+html5_element_link_index	<link rel="index" href="^|" title="" />	B
+html5_element_link_glossary	<link rel="glossary" href="^|" title="" />	B
+html5_element_link_copyright	<link rel="copyright" href="^|" title="" />	B
+html5_element_link_chapter	<link rel="chapter" href="^|" title="" />	B
+html5_element_link_section	<link rel="section" href="^|" title="" />	B
+html5_element_link_subsection	<link rel="subsection" href="^|" title="" />	B
+html5_element_link_appendix	<link rel="appendix" href="^|" title="" />	B
+html5_element_link_help	<link rel="help" href="^|" title="" />	B
+html5_element_link_bookmark	<link rel="bookmark" href="^|" title="" />	B
+html5_element_link_sortcuticon	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="^|" />	B
+
+
+html5_element_img	<img src="^|" alt="" />
+html5_element_object	<object data="|" type="">^</object>
+html5_element_param	<param name="|" value="" valuetype="" />^
+
+html5_element_map	<map name="">\n  |^\n</map>
+html5_element_area	<area href="|" alt="" shape="" coords="" />^
+
+
+html5_style1	<link rel="stylesheet" type="text/css" href="style.css" />\n|^	B
+html5_style2	<link rel="stylesheet" type="text/css" href="|" />\n^	B
+html5_style3	<style type="text/css">\n|^\n</style>	B
+html5_style4	<link rel="stylesheet" type="text/css" href="print.css" media="print" />\n|^	B
+html5_style5	<link rel="stylesheet" type="text/css" href="style.css" />\n<?xml-stylesheet type="text/css" href="style.css" ?>|^	B
+html5_style6	<link rel="stylesheet" type="text/css" href="|" />\n<?xml-stylesheet type="text/css" href="" ?>^	B
+
+
+html5_element_hr	<hr />^|
+
+
+html5_element_form	<form action="|" method="post">\n  ^\n</form>	B
+
+
+html5_element_input	<input name="|" />^
+html5_element_input_checkbox	<input type="checkbox" name="|" value="" />^
+html5_element_input_radio	<input type="radio" name="|" value="" />^
+html5_element_input_submit	<input type="submit" value="|^" />
+html5_element_input_hidden	<input type="hidden"  name="|" value="" />^
+
+html5_element_input_type	<input type="|" name="" />^
+html5_element_input_text	<input type="text" name="|" value="" />^
+html5_element_input_password	<input type="password" name="|" />^
+html5_element_input_reset	<input type="reset" value="Reset" />|^
+html5_element_input_file	<input type="file" />|^
+html5_element_input_image	<input type="image" />|^
+html5_element_input_button	<input type="button" />|^
+
+html5_element_button	<button name="|" value="submit" type="submit">\n  ^\n</button>
+html5_element_select	<select name="|" size="1">\n  ^\n</select>
+html5_element_option	<option>^|</option>
+html5_element_optgroup	<optgroup label="|">\n  ^\n</optgroup>
+html5_element_textarea	<textarea name="|" rows="" cols="">\n  ^\n</textarea>
+html5_element_label	<label for="|">^</label>
+html5_element_fieldset	<fieldset>\n  |^\n</fieldset>
+html5_element_legend	<legend>\n  |^\n</legend>
+
+
+html5_script1	<script type="text/javascript" src="|">^</script>	B
+html5_script2	<script type="text/javascript">\n    ^|\n</script>	B
+html5_script3	<noscript>\n    ^|\n</noscript>	B
+
+
+html5_page_1	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">\n  <head>\n    <title>|</title>\n    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />\n  </head>\n<body>\n^\n</body>\n</html>	B
+html5_page_2	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">\n  <head>\n    <title>|</title>\n    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />\n    <style type="text/css">\n    \n    </style>\n  </head>\n<body>\n^\n</body>\n</html>	B
+html5_page_3	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">\n  <head>\n    <title>|</title>\n    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />\n    <link rel="stylesheet" type="text/css" href="style.css" />\n  </head>\n<body>\n^\n</body>\n</html>	B
+
+html5_meta_author	<meta name="author" content="Lorem Ipsum" />\n|^	B
+html5_meta_copyright	<meta name="copyright" content="(c)2007 Lorem Ipsum" />\n|^	B
+html5_meta_generator	<meta name="generator" content="NotH" />\n|^	B
+html5_meta_reply_to	<meta name="reply-to" content="loremipsum@example.net" />\n|^	B
+html5_meta_publisher	<meta name="publisher" content="Lorem Ipsum Publishing House" />\n|^	B
+html5_meta_company	<meta name="company" content="LoremIpsumSoftware" />\n|^	B
+
+html5_meta_content_language	<meta http-equiv="Content-Language" content="pl" />\n|^	B
+html5_meta_description	<meta name="description" content="" />\n|^	B
+html5_meta_keywords	<meta name="keywords" content="" />\n|^	B
+html5_meta_robots	<meta name="robots" content="all" />\n|^	B
+
+html5_meta_title	<meta name="title" content="" />\n|^	B
+html5_meta_abstract	<meta name="abstract" content="" />\n|^	B
+html5_meta_revisit_after	<meta name="revisit-after" content="5 Days" />\n|^	B
+html5_meta_googlebot	<meta name="googlebot" content="noarchive" />\n|^	B
+html5_meta_date	<meta name="date" content="Thu, 02 Jun 2005 9:50:06 GMT" />\n|^	B
+html5_meta_expires	<meta http-equiv="Expires" content="Thu, 09 Jun 2005 9:50:06 GMT" />\n|^	B
+html5_meta_cache_control	<meta http-equiv="Cache-Control" content="no-cache" />\n|^	B
+html5_meta_content_style_type	<meta http-equiv="Content-Style-Type" content="text/css" />\n|^	B
+html5_meta_content_script_type	<meta http-equiv="Content-Script-Type" content="text/javascript" />\n|^	B
+html5_meta_mssmarttagspreventparsing	<meta name="MSSmartTagsPreventParsing" content="true" />\n|^	B
+html5_meta_imagetoolbar	<meta http-equiv="imagetoolbar" content="no" />\n|^	B
+
+
+html5_meta_rating	<meta name="rating" content="general" />\n|^	B
+html5_meta_rating2	<meta name="rating" content="all" />\n|^	B
+html5_meta_doc_class	<meta name="doc-class" content="Living Document" />\n|^	B
+html5_meta_distribution	<meta name="distribution" content="global" />\n|^	B
+html5_meta_resource_type	<meta name="resource-type" content="document" />\n|^	B
+html5_meta_page_topic	<meta name="page-topic" content="Internet" />\n|^	B
+html5_meta_page_type	<meta name="page-type" content="Instruction" />\n|^	B
+html5_meta_audience	<meta name="audience" content="General" />\n|^	B
+
+
+
+
+html5_meta_all	<meta name="author" content="Lorem Ipsum" />\n<meta name="copyright" content="(c)2007 Lorem Ipsum" />\n<meta name="generator" content="NotH" />\n<meta name="reply-to" content="loremipsum@example.net" />\n<meta name="publisher" content="Lorem Ipsum Publishing House" />\n<meta name="company" content="LoremIpsumSoftware" />\n<meta http-equiv="Content-Language" content="pl" />\n<meta name="description" content="" />\n<meta name="keywords" content="" />\n<meta name="robots" content="all" />\n<meta name="googlebot" content="noarchive" />\n<meta name="date" content="Thu, 02 Jun 2005 9:50:06 GMT" />\n<meta http-equiv="Expires" content="Thu, 09 Jun 2005 9:50:06 GMT" />\n<meta http-equiv="Cache-Control" content="no-cache" />\n<meta http-equiv="Content-Style-Type" content="text/css" />\n<meta http-equiv="Content-Script-Type" content="text/javascript" />\n<meta name="MSSmartTagsPreventParsing" content="true" />\n<meta http-equiv="imagetoolbar" content="no" />\n|^	B
+
+
+
+
+html5_lorem_ipsum_1	^|Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\nSuspendisse nunc pede, aliquet at, tincidunt id, sodales in,\nnulla. Pellentesque viverra ipsum ac quam. In hac habitasse\nplatea dictumst. In eget tellus. Nullam placerat, felis in\nscelerisque sollicitudin, magna velit dictum mi, ac molestie\nquam urna nec nibh. Morbi facilisis. Suspendisse pulvinar\nnisl at elit. Sed euismod orci sed est. Donec tempor tellus\nsit amet ante. Aenean quis leo. Pellentesque habitant morbi\ntristique senectus et netus et malesuada fames ac turpis\negestas. Duis sapien. Nam elementum velit nec mauris.\nCurabitur non turpis quis felis placerat luctus.\nPellentesque id mi sit amet quam fermentum convallis. Duis\nnec lacus. Donec laoreet. Suspendisse vel nisl eget nibh\ndapibus ultricies. Donec ornare. Vestibulum lorem. In massa\nneque, dapibus a, tempor ut, ultricies at, neque. Curabitur\nat risus. Sed ut magna vel odio molestie tincidunt. Mauris\nconsectetuer, velit a elementum malesuada, pede mauris\ninterdum risus, vel commodoarcu risus eget tellus. Proin\nsagittis, felis non dictum sodales, libero est varius diam,\neget vehicula lorem metus eu velit.	B
+html5_lorem_ipsum_2	^|Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\nSuspendisse nunc pede, aliquet at, tincidunt id, sodales in,\nnulla. Pellentesque viverra ipsum ac quam. In hac habitasse\nplatea dictumst. In eget tellus. Nullam placerat, felis in\nscelerisque sollicitudin, magna velit dictum mi, ac molestie\nquam urna nec nibh. Morbi facilisis. Suspendisse pulvinar\nnisl at elit. Sed euismod orci sed est. Donec tempor tellus\nsit amet ante. Aenean quis leo. Pellentesque habitant morbi\ntristique senectus et netus et malesuada fames ac turpis\negestas. Duis sapien. Nam elementum velit nec mauris.\n\nCurabitur non turpis quis felis placerat luctus.\nPellentesque id mi sit amet quam fermentum convallis. Duis\nnec lacus. Donec laoreet. Suspendisse vel nisl eget nibh\ndapibus ultricies. Donec ornare. Vestibulum lorem. In massa\nneque, dapibus a, tempor ut, ultricies at, neque. Curabitur\nat risus. Sed ut magna vel odio molestie tincidunt. Mauris\nconsectetuer, velit a elementum malesuada, pede mauris\ninterdum risus, vel commodoarcu risus eget tellus. Proin\nsagittis, felis non dictum sodales, libero est varius diam,\neget vehicula lorem metus eu velit.	B
+
+

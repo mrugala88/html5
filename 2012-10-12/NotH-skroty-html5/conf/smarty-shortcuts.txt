@@ -1,0 +1,8 @@
+EV	smarty_variable
+EC	smarty_comment
+EI	smarty_if
+EJ	smarty_if_else
+EG	smarty_if_else_if
+ES	smarty_section
+EQ	smarty_include
+ER	smarty_foreach

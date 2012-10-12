@@ -1,0 +1,489 @@
+#
+# selektory
+#
+
+css_selector_id	#| {\n    ^\n}	B
+css_selector_class	.| {\n    ^\n}	B
+
+css_selector_html_body	html, body {\n    |^\n}	B
+css_selector_body	body {\n    |^\n}	B
+css_selector_html	html {\n    |^\n}	B
+css_selector_address	address {\n    |^\n}	B
+
+css_selector_h1	h1 {\n    |^\n}	B
+css_selector_h2	h2 {\n    |^\n}	B
+css_selector_h3	h3 {\n    |^\n}	B
+css_selector_h4	h4 {\n    |^\n}	B
+css_selector_h5	h5 {\n    |^\n}	B
+css_selector_h6	h6 {\n    |^\n}	B
+
+css_selector_a	a {\n    |^\n}	B
+
+css_selector_a_active	a:active {\n    |^\n}	B
+css_selector_a_hover	a:hover {\n    |^\n}	B
+css_selector_a_visited	a:visited {\n    |^\n}	B
+css_selector_a_link	a:link {\n    |^\n}	B
+
+css_selector_a_lvha	a:link {\n    |^\n}\na:visited {\n    \n}\na:hover {\n    \n}\na:active {\n    \n}
+
+css_selector_p	p {\n    |^\n}	B
+css_selector_pre	pre {\n    |^\n}	B
+css_selector_br	br {\n    |^\n}	B
+
+css_selector_em	em {\n    |^\n}	B
+css_selector_strong	strong {\n    |^\n}	B
+css_selector_dfn	dfn {\n    |^\n}	B
+css_selector_code	code {\n    |^\n}	B
+css_selector_samp	samp {\n    |^\n}	B
+css_selector_kbd	kbd {\n    |^\n}	B
+css_selector_var	var {\n    |^\n}	B
+css_selector_cite	cite {\n    |^\n}	B
+css_selector_abbr	abbr {\n    |^\n}	B
+css_selector_acronym	acronym {\n    |^\n}	B
+
+css_selector_q	q {\n    |^\n}	B
+css_selector_blockquote	blockquote {\n    |^\n}	B
+
+css_selector_sub	sub {\n    |^\n}	B
+css_selector_sup	sup {\n    |^\n}	B
+
+css_selector_div	div {\n    |^\n}	B
+css_selector_span	span {\n    |^\n}	B
+
+css_selector_img	img {\n    |^\n}	B
+
+css_selector_ins	ins {\n    |^\n}	B
+css_selector_del	del {\n    |^\n}	B
+
+css_selector_ul	ul {\n    |^\n}	B
+css_selector_ol	ol {\n    |^\n}	B
+css_selector_li	li {\n    |^\n}	B
+css_selector_dl	dl {\n    |^\n}	B
+css_selector_dt	dt {\n    |^\n}	B
+css_selector_dd	dd {\n    |^\n}	B
+
+
+css_selector_table	table {\n    |^\n}	B
+css_selector_td	td {\n    |^\n}	B
+css_selector_th	th {\n    |^\n}	B
+css_selector_tr	tr {\n    |^\n}	B
+css_selector_caption	caption {\n    |^\n}	B
+css_selector_thead	thead {\n    |^\n}	B
+css_selector_tfoot	tfoot {\n    |^\n}	B
+css_selector_tbody	tbody {\n    |^\n}	B
+
+
+css_selector_form	form {\n    |^\n}	B
+css_selector_input	input {\n    |^\n}	B
+css_selector_button	button {\n    |^\n}	B
+css_selector_select	select {\n    |^\n}	B
+css_selector_option	option {\n    |^\n}	B
+css_selector_optgroup	optgroup {\n    |^\n}	B
+css_selector_textarea	textarea {\n    |^\n}	B
+css_selector_label	label {\n    |^\n}	B
+css_selector_fieldset	fieldset {\n    |^\n}	B
+css_selector_legend	legend {\n    |^\n}	B
+
+css_selector_hr	hr {\n    |^\n}	B
+
+
+#
+# czcionki i tekst
+#
+
+css_font	font: ^|;	B
+css_font1	font: 80% sans-serif;\n^|	B
+css_font2	font: small Verdana, sans-serif;\n^|	B
+css_font3	font: italic 140% Georgia, serif;\n^|	B
+css_font4	font: bold 140%/200% Verdana, sans-serif;\n^|	B
+css_font5	font: bold italic large "Trebuchet MS", sans-serif;\n^|	B
+css_font6	font: bold small-caps medium serif;\n^|	B
+
+css_font_family	font-family: ^|;\n	B
+css_font_family_verdana	font-family: Verdana, sans-serif;\n^|	B
+css_font_family_trebuchet	font-family: "Trebuchet MS", sans-serif;\n^|	B
+css_font_family_georgia	font-family: Georgia, serif;\n^|	B
+css_font_family_courier_new	font-family: "Courier New", monospace;\n^|	B
+css_font_family_times_new_roman	font-family: "Times New Roman", serif;\n^|	B
+css_font_family_tahoma	font-family: Tahoma, sans-serif;\n^|	B
+
+css_font_size	font-size: ^|;\n	B
+
+css_font_size_xx_small	font-size: xx-small;\n^|	B
+css_font_size_x_small	font-size: x-small;\n^|	B
+css_font_size_small	font-size: small;\n^|	B
+css_font_size_medium	font-size: medium;\n^|	B
+css_font_size_large	font-size: large;\n^|	B
+css_font_size_x_large	font-size: x-large;\n^|	B
+css_font_size_xx_large	font-size: xx-large;\n^|	B
+
+css_font_size_percent	font-size: 100%;\n^|	B
+css_font_size_1em	font-size: 1em;\n^|	B
+css_font_size_larger	font-size: larger;\n^|	B
+css_font_size_smaller	font-size: smaller;\n^|	B
+
+css_font_style_normal	font-style: normal;\n^|	B
+css_font_style_italic	font-style: italic;\n^|	B
+
+css_font_variant_normal	font-variant: normal;\n^|	B
+css_font_variant_small_caps	font-variant: small-caps;\n^|	B
+
+css_font_weight_normal	font-weight: normal;\n^|	B
+css_font_weight_bold	font-weight: bold;\n^|	B
+
+css_text_align_left	text-align: left;\n^|	B
+css_text_align_right	text-align: right;\n^|	B
+css_text_align_center	text-align: center;\n^|	B
+css_text_align_justify	text-align: justify;\n^|	B
+
+css_text_decoration_none	text-decoration: none;\n^|	B
+css_text_decoration_underline	text-decoration: underline;\n^|	B
+css_text_decoration_overline	text-decoration: overline;\n^|	B
+css_text_decoration_line_through	text-decoration: line-through;\n^|	B
+
+css_text_indent_2em	text-indent: 2em;\n^|	B
+css_text_indent_0	text-indent: 0;\n^|	B
+css_text_indent	text-indent: ^|;\n	B
+
+css_text_transform_uppercase	text-transform: uppercase;\n^|	B
+css_text_transform_lowercase	text-transform: lowercase;\n^|	B
+css_text_transform_capitalize	text-transform: capitalize;\n^|	B
+css_text_transform_none	text-transform: none;\n^|	B
+
+css_word_spacing	word-spacing: ^|;\n	B
+css_word_spacing_0	word-spacing: 0;\n^|	B
+css_word_spacing_1em	word-spacing: 1em;\n^|	B
+
+css_letter_spacing	letter-spacing: ^|;\n	B
+css_letter_spacing_0	letter-spacing: 0;\n^|	B
+css_letter_spacing_02em	letter-spacing: 0.2em;\n^|	B
+
+css_white_space_normal	white-space: normal;\n^|	B
+css_white_space_pre	white-space: pre;\n^|	B
+css_white_space_nowrap	white-space: nowrap;\n^|	B
+css_white_space_pre_wrap	white-space: pre-wrap;\n^|	B
+css_white_space_pre_line	white-space: pre-line;\n^|	B
+
+css_line_height	line-height: ^|;\n	B
+css_line_height_100	line-height: 100%;\n^|	B
+css_line_height_0	line-height: 0;\n^|	B
+
+css_vertical_align	vertical-align: ^|;	B
+css_vertical_align_baseline	vertical-align: baseline;\n^|	B
+css_vertical_align_sub	vertical-align: sub;\n^|	B
+css_vertical_align_sup	vertical-align: sup;\n^|	B
+css_vertical_align_super	vertical-align: super;\n^|	B
+css_vertical_align_top	vertical-align: top;\n^|	B
+css_vertical_align_text_top	vertical-align: text-top;\n^|	B
+css_vertical_align_middle	vertical-align: middle;\n^|	B
+css_vertical_align_bottom	vertical-align: bottom;\n^|	B
+css_vertical_align_text_bottom	vertical-align: text-bottom;\n^|	B
+css_vertical_align_100px	vertical-align: 100px;\n^|	B
+css_vertical_align_2ex	vertical-align: 3ex;\n^|	B
+css_vertical_align_5em	vertical-align: 5em;\n^|	B
+
+
+#
+# marginesy
+#
+
+css_margin	margin: ^|;	B
+css_margin_0_auto	margin: 0 auto;\n^|	B
+css_margin_0	margin: 0;\n^|	B
+css_margin_100	margin: 100px;\n^|	B
+css_margin_50_100	margin: 50px 100px;\n^|	B
+css_margin_10_20_30_40	margin: 10px 20px 30px 40px;\n^|	B
+
+css_margin_top	margin-top: ^|;	B
+css_margin_right	margin-right: ^|;	B
+css_margin_bottom	margin-bottom: ^|;	B
+css_margin_left	margin-left: ^|;	B
+
+
+
+#
+# dope³nienie
+#
+
+css_padding	padding: ^|;	B
+css_padding_0	padding: 0;\n^|	B
+css_padding_100	padding: 100px;\n^|	B
+css_padding_50_100	padding: 50px 100px;\n^|	B
+css_padding_10_20_30_40	padding: 10px 20px 30px 40px;\n^|	B
+
+css_padding_top	padding-top: ^|;	B
+css_padding_right	padding-right: ^|;	B
+css_padding_bottom	padding-bottom: ^|;	B
+css_padding_left	padding-left: ^|;	B
+
+
+#
+# obramowanie
+#
+
+css_border	border: 1px solid black;\n^|	B
+css_border2	border: 3px dashed rgb(0,128,220);\n^|	B
+css_border_none	border: none;\n^|	B
+
+css_border_collapse	border-collapse: collapse;\n^|	B
+css_border_collapse2	border-collapse: separate;\n^|	B
+
+css_border_color	border-color: ^|;	B
+css_border_color_red	border-color: red;\n^|	B
+css_border_color_rgb	border-color: rgb(64,128,255);\n^|	B
+css_border_color_hash	border-color: #0077ff;\n^|	B
+
+css_border_spacing	border-spacing: ^|;	B
+css_border_spacing0	border-spacing: 0;\n^|	B
+css_border_spacing5	border-spacing: 5px;\n^|	B
+
+css_border_style	border-style: ^|;	B
+css_border_style_none	border-style: none;\n^|	B
+css_border_style_hidden	border-style: hidden;\n^|	B
+css_border_style_dotted	border-style: dotted;\n^|	B
+css_border_style_dashed	border-style: dashed;\n^|	B
+css_border_style_solid	border-style: solid;\n^|	B
+css_border_style_double	border-style: double;\n^|	B
+css_border_style_groove	border-style: groove;\n^|	B
+css_border_style_ridge	border-style: ridge;\n^|	B
+css_border_style_inset	border-style: inset;\n^|	B
+css_border_style_outset	border-style: outset;\n^|	B
+
+css_border_width	border-width: ^|;	B
+css_border_width0	border-width: 0;\n^|	B
+css_border_width5	border-width: 5px;\n^|	B
+
+css_border_top	border-top: ^|;	B
+css_border_right	border-right: ^|;	B
+css_border_bottom	border-bottom: ^|;	B
+css_border_left	border-left: ^|;	B
+
+css_border_top_color	border-top-color: ^|;	B
+css_border_top_style	border-top-style: ^|;	B
+css_border_top_width	border-top-width: ^|;	B
+
+css_border_right_color	border-right-color: ^|;	B
+css_border_right_style	border-right-style: ^|;	B
+css_border_right_width	border-right-width: ^|;	B
+
+css_border_bottom_color	border-bottom-color: ^|;	B
+css_border_bottom_style	border-bottom-style: ^|;	B
+css_border_bottom_width	border-bottom-width: ^|;	B
+
+css_border_left_color	border-left-color: ^|;	B
+css_border_left_style	border-left-style: ^|;	B
+css_border_left_width	border-left-width: ^|;	B
+
+
+#
+# kolory
+#
+
+css_color	color: ^|;	B
+css_background	background: ^|;	B
+
+
+#
+# pude³ka
+#
+
+css_box_display	display: ^|;	B
+css_box_display_inline	display: inline;\n^|	B
+css_box_display_block	display: block;\n^|	B
+css_box_display_none	display: none;\n^|	B
+css_box_display_list_item	display: list-item;\n^|	B
+css_box_display_run_in	display: run-in;\n^|	B
+css_box_display_inline_block	display: inline-block;\n^|	B
+css_box_display_table	display: table;\n^|	B
+css_box_display_inline_table	display: inline-table;\n^|	B
+css_box_display_row_group	display: table-row-group;\n^|	B
+css_box_display_table_header_group	display: table-header-group;\n^|	B
+css_box_display_table_footer_group	display: table-footer-group;\n^|	B
+css_box_display_table_row	display: table-row;\n^|	B
+css_box_display_table_column_group	display: table-column-group;\n^|	B
+css_box_display_table_column	display: table-column;\n^|	B
+css_box_display_table_cell	display: table-cell;\n^|	B
+css_box_display_table_caption	display: table-caption;\n^|	B
+
+
+css_box_width	width: ^|;	B
+css_box_width100	width: 100px;\n^|	B
+
+css_box_min_width	min-width: ^|;	B
+css_box_min_width100	min-width: 100px;\n^|	B
+
+css_box_max_width	max-width: ^|;	B
+css_box_max_width100	max-width: 100px;\n^|	B
+
+css_box_height	height: ^|;	B
+css_box_height100	height: 100px;\n^|	B
+
+css_box_min_height	min-height: ^|;	B
+css_box_min_height100	min-height: 100px;\n^|	B
+
+css_box_max_height	max-height: ^|;	B
+css_box_max_height100	max-height: 100px;\n^|	B
+
+css_box_top	top: ^|;	B
+css_box_top100	top: 100px;\n^|	B
+
+css_box_left	left: ^|;	B
+css_box_left100	left: 100px;\n^|	B
+
+css_box_right	right: ^|;	B
+css_box_right100	right: 100px;\n^|	B
+
+css_box_bottom	bottom: ^|;	B
+css_box_bottom100	bottom: 100px;\n^|	B
+
+css_box_position	position: ^|;	B
+css_box_position_static	position: static;\n^|	B
+css_box_position_relative	position: relative;\n^|	B
+css_box_position_absolute	position: absolute;\n^|	B
+css_box_position_fixed	position: fixed;\n^|	B
+
+css_box_float	float: ^|;	B
+css_box_float_left	float: left;\n^|	B
+css_box_float_right	float: right;\n^|	B
+css_box_float_none	float: none;\n^|	B
+
+css_box_clear	clear: ^|;	B
+css_box_clear_left	clear: left;\n^|	B
+css_box_clear_right	clear: right;\n^|	B
+css_box_clear_none	clear: none;\n^|	B
+
+css_box_z_index	z-index: ^|;	B
+css_box_z_index100	z-index: 100;\n^|	B
+
+
+#listy
+
+css_list_style	list-style: ^|;	B
+
+css_list_style_image	list-style-image: url('^|');\n	B
+css_list_style_image_none	list-style-image: none;\n^|	B
+
+css_list_style_position	list-style-position: ^|;	B
+css_list_style_position_inside	list-style-position: inside;\n^|	B
+css_list_style_position_outside	list-style-position: outside;\n^|	B
+
+css_list_style_type	list-style-type: ^|;	B
+css_list_style_type_none	list-style-type: none;\n^|	B
+css_list_style_type_disc	list-style-type: disc;\n^|	B
+css_list_style_type_circle	list-style-type: circle;\n^|	B
+css_list_style_type_square	list-style-type: square;\n^|	B
+css_list_style_type_decimal	list-style-type: decimal;\n^|	B
+css_list_style_type_decimal_leading_zero	list-style-type: decimal-leading-zero;\n^|	B
+css_list_style_type_lower_roman	list-style-type: lower-roman;\n^|	B
+css_list_style_type_upper_roman	list-style-type: upper-roman;\n^|	B
+css_list_style_type_lower_greek	list-style-type: lower-greek;\n^|	B
+css_list_style_type_lower_latin	list-style-type: lower-latin;\n^|	B
+css_list_style_type_upper_latin	list-style-type: upper-latin;\n^|	B
+css_list_style_type_armenian	list-style-type: armenian;\n^|	B
+css_list_style_type_georgian	list-style-type: georgian;\n^|	B
+css_list_style_type_lower_alpha	list-style-type: lower-alpha;\n^|	B
+css_list_style_type_uper_alpha	list-style-type: upper-alpha;\n^|	B
+
+
+#tabela
+
+css_tabela	table {\n    border-collapse: collapse;\n    border: 2px solid black;\n}\n\ntd {\n    border: 1px solid black;\n}\n\nth {\n    border: 1px solid black;\n}\n^|	B
+
+css_caption_side	caption-side: ^|;	B
+css_caption_side_top	caption-side: top;\n^|	B
+css_caption_side_bottom	caption-side: bottom;\n^|	B
+
+css_empty_cells	empty-cells: ^|;	B
+css_empty_cells_hide	empty-cells: hide;\n^|	B
+css_empty_cells_show	empty-cells: show;\n^|	B
+
+
+css_table_layout_auto	table-layout: auto;\n^|	B
+css_table_layout_fixed	table-layout: fixed;\n^|	B
+
+
+
+#t³a
+
+css_background	background: blue url('^|') center top;	B
+css_background2	background: rgb(128,192,224) url('^|') 50% top;	B
+
+css_background_attachment	background-attachment: ^|;	B
+css_background_attachment_scroll	background-attachment: scroll;\n^|	B
+css_background_attachment_fixed	background-attachment: fixed;\n^|	B
+
+css_background_color	background-color: ^|;	B
+css_background_color_transparent	background-color: transparent;\n^|	B
+
+
+css_background_image	background-image: url('^|');	B
+css_background_image_none	background-image: none;\n^|	B
+
+
+css_background_position	background-position: ^|;	B
+css_background_position_left_top	background-position: left top;\n^|	B
+css_background_position_center_top	background-position: center top;\n^|	B
+css_background_position_center_center	background-position: center center;\n^|	B
+css_background_position_procent	background-position: 20% 60%;\n^|	B
+css_background_position_px	background-position: 100px 200px;\n^|	B
+
+css_background_repeat	background-repeat: ^|;	B
+css_background_repeat_repeat	background-repeat: repeat;\n^|	B
+css_background_repeat_repeat_x	background-repeat: repeat-x;\n^|	B
+css_background_repeat_repeat_y	background-repeat: repeat-y;\n^|	B
+css_background_repeat_no_repeat	background-repeat: no-repeat;\n^|	B
+
+
+#efekty wizualne
+
+css_clip	clip: ^|;	B
+css_clip_rect	clip: rect(5px, 40px, 45px, 5px);\n^|	B
+css_clip_auto	clip: auto;\n^|	B
+
+css_overflow	overflow: ^|;	B
+css_overflow_visible	overflow: visible;\n^|	B
+css_overflow_hidden	overflow: hidden;\n^|	B
+css_overflow_scroll	overflow: scroll;\n^|	B
+css_overflow_auto	overflow: auto;\n^|	B
+
+css_visibility_visible	visibility: visible;\n^|	B
+css_visibility_hidden	visibility: hidden;\n^|	B
+css_visibility_collapse	visibility: collapse;\n^|	B
+
+
+#inne
+css_cursor	cursor: ^|;	B
+css_cursor_crosshair	cursor: crosshair;\n^|	B
+css_cursor_default	cursor: default;\n^|	B
+css_cursor_pointer	cursor: pointer;\n^|	B
+css_cursor_move	cursor: move;\n^|	B
+css_cursor_e_resize	cursor: e-resize;\n^|	B
+css_cursor_ne_resize	cursor: ne-resize;\n^|	B
+css_cursor_nw_resize	cursor: nw-resize;\n^|	B
+css_cursor_n_resize	cursor: n-resize;\n^|	B
+css_cursor_se_resize	cursor: se-resize;\n^|	B
+css_cursor_sw_resize	cursor: sw-resize;\n^|	B
+css_cursor_s_resize	cursor: s-resize;\n^|	B
+css_cursor_w_resize	cursor: w-resize;\n^|	B
+css_cursor_text	cursor: text;\n^|	B
+css_cursor_wait	cursor: wait;\n^|	B
+css_cursor_help	cursor: help;\n^|	B
+css_cursor_progress	cursor: progress;\n^|	B
+
+
+
+css_page_break_after_auto	page-break-after: auto;\n^|	B
+css_page_break_after_always	page-break-after: always;\n^|	B
+css_page_break_after_avoid	page-break-after: avoid;\n^|	B
+css_page_break_after_left	page-break-after: left;\n^|	B
+css_page_break_after_right	page-break-after: right;\n^|	B
+
+
+css_page_break_before_auto	page-break-before: auto;\n^|	B
+css_page_break_before_always	page-break-before: always;\n^|	B
+css_page_break_before_avoid	page-break-before: avoid;\n^|	B
+css_page_break_before_left	page-break-before: left;\n^|	B
+css_page_break_before_right	page-break-before: right;\n^|	B
+
+css_page_break_inside_auto	page-break-inside: auto;\n^|	B
+css_page_break_inside_avoid	page-break-inside: avoid;\n^|	B

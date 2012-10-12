@@ -1,0 +1,35 @@
+EP	php_rawtemplates_php
+EE	php_rawtemplates_echo
+EI	php_rawtemplates_if
+EJ	php_rawtemplates_ifelse
+EK	php_rawtemplates_ifelseif
+ER	php_rawtemplates_foreach
+
+EP	php_open_close_full
+
+EI	php_statement_if
+EJ	php_statement_if2
+EK	php_statement_if3
+EF	php_statement_for
+EG	php_statement_for2
+EH	php_statement_swith
+EW	php_statement_while
+ER	php_statement_foreach
+ED	php_statement_do
+EU	php_function_definition
+EU	php_function_definition2
+EU	php_function_definition3
+EU	php_function_definition4
+EU	php_function_definition5
+
+
+
+EE	php_statement_echo1
+EQ	php_statement_require_once
+
+EX	php_debug1
+EY	php_debug2
+E1	php_debug3
+E0	php_debug4
+
+

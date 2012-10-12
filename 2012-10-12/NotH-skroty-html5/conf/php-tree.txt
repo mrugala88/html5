@@ -1,0 +1,44 @@
+Podstawowe
+	<?php...?>|php_open_close_full
+	echo '';|php_statement_echo1
+	echo "";|php_statement_echo2
+	echo ;|php_statement_echo3
+	require_once|php_statement_require_once
+	Komentarze
+		/* ... */|php_comment1
+		//|php_comment2
+		Blok
+			* ...(wielolinijkowo)|php_comment_block1
+			/* ... */ (jednolinijkowo)|php_comment_block2
+Instrukcje steruj¹ce
+	if|php_statement_if
+	if/else|php_statement_if2
+	if/elseif/elseif|php_statement_if3
+	for|php_statement_for
+	for/tmp|php_statement_for2
+	switch|php_statement_swith
+	while|php_statement_while
+	foreach|php_statement_foreach
+	do-while|php_statement_do
+Ró¿ne
+	definicja funkcji|php_function_definition
+	metoda publiczna|php_function_definition2
+	metoda statyczna|php_function_definition3
+	__toString()|php_function_definition4
+	__construct()|php_function_definition5
+Debug
+	var_dump()|php_debug1
+	echo|php_debug2
+	error_reporting E_ALL|php_debug3
+	error_reporting 0|php_debug4
+	ogonki|php_debug5
+Zmienne predefiniowane
+	$_SERVER['REQUEST_URI']|php_superglobal_requrest_uri
+	$_SERVER['PHP_SELF']|php_superglobal_php_self
+Szablony PHP
+	RAW <?php ?>|php_rawtemplates_php
+	RAW echo|php_rawtemplates_echo
+	RAW if|php_rawtemplates_if
+	RAW if-else|php_rawtemplates_ifelse
+	RAW if-elseif|php_rawtemplates_ifelseif
+	RAW foreach|php_rawtemplates_foreach

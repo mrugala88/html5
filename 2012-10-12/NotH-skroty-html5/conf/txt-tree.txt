@@ -1,0 +1,4 @@
+Interpunkcja
+	Przecinek|text_przecinek
+	Kropka|text_kropka
+	Quot|text_quot

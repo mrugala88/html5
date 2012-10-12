@@ -1,0 +1,14 @@
+Szpyra
+	Vowels
+		i|phonetics_i
+		iː|phonetics_i_long
+		e|phonetics_e
+		æ|phonetics_ash
+		ɑː|phonetics_a
+		ɔ|phonetics_o
+		ɔːphonetics_o_long
+		u|phonetics_u
+		uː|phonetics_u_long
+		ʌ|phonetics_wedge
+		əːphonetics_schwa_long
+		ə|phonetics_schwa

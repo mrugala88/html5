@@ -1,0 +1,275 @@
+Strona
+	Szablony stron
+		XHTML 1.0 Strict, pl, utf-8, bez stylÛw|xhtml_page_1
+		XHTML 1.0 Strict, pl, utf-8, style wew.|xhtml_page_2
+		XHTML 1.0 Strict, pl, utf-8, style zew.|xhtml_page_3
+	Komentarz|xhtml_comment
+	DOCTYPE
+		DOCTYPE XHTML 1.0 strict|xhtml_doctype_1_0_strict
+		DOCTYPE XHTML 1.0 transitional|xhtml_doctype_1_0_transitional
+		DOCTYPE XHTML 1.0 frameset|xhtml_doctype_1_0_frameset
+	Kodowanie znakÛw
+		Kodowanie znakÛw iso-8859-2|xhtml_meta_charset_iso_8859_2
+		Kodowanie znakÛw windows-1250|xhtml_meta_charset_windows_1250
+		Kodowanie znakÛw utf-8|xhtml_meta_charset_utf_8
+	Element html|xhtml_element_html
+	Element html z ns|xhtml_element_html_with_ns
+	Element html z ns i lang|xhtml_element_html_with_ns_lang_pl
+	Element head|xhtml_element_head
+	Element title|xhtml_element_title
+	Element body|xhtml_element_body
+	Element address|xhtml_element_address
+Style
+	Style zewnÍtrzne style.css|xhtml_style1
+	Style zewnÍtrzne ogÛlne|xhtml_style2
+	Style wewnÍtrzne|xhtml_style3
+	Style do druku|xhtml_style4
+	Style XML style.css|xhtml_style5
+	Style XML ogÛlne|xhtml_style6	
+Znaki specjalne
+	&|xhtml_entity_amp
+	twarda spacja|xhtml_entity_nbsp
+	<|xhtml_entity_lt
+	>|xhtml_entity_gt
+	copyright|xhtml_entity_copy
+	"|xhtml_entity_quot
+	'|xhtml_entity_apos
+	pl cudzys≥Ûw otw.|xhtml_entity_bdquo
+	pl cudzys≥Ûw zam.|xhtml_entity_rdquo
+	...|xhtml_entity_hellip
+	x|xhtml_entity_times
+	pÛ≥pauza|xhtml_entity_ndash
+	myúlnik|xhtml_entity_mdash
+	Strza≥ki
+		w gÛrÍ|xhtml_entity_uarr
+		w prawo|xhtml_entity_rarr
+		w dÛ≥|xhtml_entity_darr
+		w lewo|xhtml_entity_larr
+	Para
+		Tag|xhtml_entity_pair_tag
+		Polski cudzys≥Ûw (oba znaki)|xhtml_entity_pair_plquote
+	Wszystkie
+		&|xhtml_entity_amp
+		twarda spacja|xhtml_entity_nbsp
+		<|xhtml_entity_lt
+		>|xhtml_entity_gt
+		copyright|xhtml_entity_copy
+		"|xhtml_entity_quot
+		'|xhtml_entity_apos
+		Polski cudzys≥Ûw (oba znaki)|xhtml_entity_pair_plquote
+		pl cudzys≥Ûw otw.|xhtml_entity_bdquo
+		pl cudzys≥Ûw zam.|xhtml_entity_rdquo
+		...|xhtml_entity_hellip
+		x|xhtml_entity_times
+		pÛ≥pauza|xhtml_entity_ndash
+		myúlnik|xhtml_entity_mdash
+		strza≥ka w gÛrÍ|xhtml_entity_uarr
+		strza≥ka w prawo|xhtml_entity_rarr
+		strza≥ka w dÛ≥|xhtml_entity_darr
+		strza≥ka w lewo|xhtml_entity_larr
+Nag≥Ûwki
+	Element h1|xhtml_element_h1
+	Element h2|xhtml_element_h2
+	Element h3|xhtml_element_h3
+	Element h4|xhtml_element_h4
+	Element h5|xhtml_element_h5
+	Element h6|xhtml_element_h6
+Tekst
+	Element p|xhtml_element_p
+	Element br|xhtml_element_br
+	Element pre|xhtml_element_pre
+	Elementy frazowe
+		Element em|xhtml_element_em
+		Element strong|xhtml_element_strong
+		Element dfn|xhtml_element_dfn
+		Element code|xhtml_element_code
+		Element samp|xhtml_element_samp
+		Element kbd|xhtml_element_kbd
+		Element var|xhtml_element_var
+		Element cite|xhtml_element_cite
+		Element abbr|xhtml_element_abbr
+		Element abbr z lang|xhtml_element_abbr2
+		Element acronym|xhtml_element_acronym
+		Element acronym z lang|xhtml_element_acronym2
+	Cytaty
+		Element q|xhtml_element_q
+		Element blockquote|xhtml_element_blockquote
+	Indeksy
+		Element sub|xhtml_element_sub
+		Element sup|xhtml_element_sup
+Elementy ogÛlne
+	Element div|xhtml_element_div
+	Element span|xhtml_element_span
+Listy
+	Element ul|xhtml_element_ul
+	Element ol|xhtml_element_ol
+	Element li|xhtml_element_li
+	Element dl|xhtml_element_dl
+	Element dt|xhtml_element_dt
+	Element dd|xhtml_element_dd
+Tabele
+	Element table|xhtml_element_table
+	Element tr|xhtml_element_tr
+	Element td|xhtml_element_td
+	Element th|xhtml_element_th
+	Element caption|xhtml_element_caption
+	Element thead|xhtml_element_thead
+	Element tfoot|xhtml_element_tfoot
+	Element tbody|xhtml_element_tbody
+	Element col|xhtml_element_col
+	Element colgroup|xhtml_element_colgroup
+	Prefabrykaty
+		th scope="col"|xhtml_element_th_col
+		th scope="row"|xhtml_element_th_row
+		Elementy thead/tfoot/tbody|xhtml_prefabrykat_theadtfoottbody
+		Tabela 2x2, ver. 1|xhtml_prefabrykat_tabela1
+		Tabela 2x2, ver. 2|xhtml_prefabrykat_tabela2
+		Tabela 2x2, ver. 3|xhtml_prefabrykat_tabela3
+		Tabela 6x2|xhtml_prefabrykat_tabela4
+Hiper≥πcza
+	Element a|xhtml_element_a
+	<a href="X">X</a>|xhtml_element_a2
+	Element link|xhtml_element_link
+	Element base|xhtml_element_base
+	Link
+		alternate|xhtml_element_link_alternate
+		stylesheet|xhtml_element_link_stylesheet
+		start|xhtml_element_link_start
+		next|xhtml_element_link_next
+		prev|xhtml_element_link_prev
+		contents|xhtml_element_link_contents
+		index|xhtml_element_link_index
+		glossary|xhtml_element_link_glossary
+		copyright|xhtml_element_link_copyright
+		chapter|xhtml_element_link_chapter
+		section|xhtml_element_link_section
+		subsection|xhtml_element_link_subsection
+		appendix|xhtml_element_link_appendix
+		help|xhtml_element_link_help
+		bookmark|xhtml_element_link_bookmark
+		shortcut icon|xhtml_element_link_sortcuticon
+Multimedia
+	Element img|xhtml_element_img
+	Element object|xhtml_element_object
+	Element param|xhtml_element_param
+	Element map|xhtml_element_map
+	Element area|xhtml_element_area
+Formularze
+	Element form|xhtml_element_form
+	Input
+		Element input domyúlny|xhtml_element_input
+		Element input typu checkbox|xhtml_element_input_checkbox
+		Element input typu radio|xhtml_element_input_radio
+		Element input typu submit|xhtml_element_input_submit
+		Element input typu hidden|xhtml_element_input_hidden
+		Element input type|xhtml_element_input_type
+		Element input typu text|xhtml_element_input_text
+		Element input typu password|xhtml_element_input_password
+		Element input typu reset|xhtml_element_input_reset
+		Element input typu file|xhtml_element_input_file
+		Element input typu image|xhtml_element_input_image
+		Element input typu button|xhtml_element_input_button
+	Element button|xhtml_element_button
+	Element select|xhtml_element_select
+	Element option|xhtml_element_option
+	Element optgroup|xhtml_element_optgroup
+	Element textarea|xhtml_element_textarea
+	Element label|xhtml_element_label
+	Element fieldset|xhtml_element_fieldset
+	Element legend|xhtml_element_legend
+Inne
+	Element hr|xhtml_element_hr
+JavaScript
+	zewnÍtrzny|xhtml_script1
+	wewnÍtrzny|xhtml_script2
+	noscript|xhtml_script3
+Lorem ipsum
+	Jeden akapit|xhtml_lorem_ipsum_1
+	Dwa akapity|xhtml_lorem_ipsum_2
+XML
+	Prolog|xml_prolog
+	Style CSS|xml_stylesheet	
+Zmiany
+	Element ins|xhtml_element_ins
+	Element del|xhtml_element_del				
+Meta
+	autor|xhtml_meta_author
+	copyright|xhtml_meta_copyright
+	generator|xhtml_meta_generator
+	reply-to|xhtml_meta_reply_to
+	publisher|xhtml_meta_publisher
+	company|xhtml_meta_company
+	content-language|xhtml_meta_content_language
+	description|xhtml_meta_description
+	keywords|xhtml_meta_keywords
+	robots|xhtml_meta_robots
+	googlebot|xhtml_meta_googlebot
+	date|xhtml_meta_date
+	expires|xhtml_meta_expires
+	cache-control|xhtml_meta_cache_control
+	content-style-type|xhtml_meta_content_style_type
+	content-script-type|xhtml_meta_content_script_type
+	MSSmartTagsPreventParsing|xhtml_meta_mssmarttagspreventparsing
+	imagetoolbar|xhtml_meta_imagetoolbar
+	Folklor
+		title|xhtml_meta_title	
+		abstract|xhtml_meta_abstract
+		revisit-after|xhtml_meta_revisit_after		
+		rating|xhtml_meta_rating
+		rating, ver. 2|xhtml_meta_rating2
+		doc-class|xhtml_meta_doc_class
+		distribution|xhtml_meta_distribution
+		resource-type|xhtml_meta_resource_type
+		page-topis|xhtml_meta_page_topic
+		page-type|xhtml_meta_page_type
+		audience|xhtml_meta_audience		
+	Wszystkie|xhtml_meta_all
+Ogonki
+	DE
+		‰|xhtml_entity_de_auml
+		ƒ|xhtml_entity_de_auml2
+		ˆ|xhtml_entity_de_ouml
+		÷|xhtml_entity_de_ouml2
+		¸|xhtml_entity_de_uuml
+		‹|xhtml_entity_de_uuml2
+		ﬂ|xhtml_entity_de_szlig
+	PL
+		π|xhtml_entity_pl_0105
+		•|xhtml_entity_pl_0104
+		Ê|xhtml_entity_pl_0107
+		∆|xhtml_entity_pl_0106
+		Í|xhtml_entity_pl_0119
+		 |xhtml_entity_pl_0118
+		≥|xhtml_entity_pl_0142
+		£|xhtml_entity_pl_0141
+		Ò|xhtml_entity_pl_0144
+		—|xhtml_entity_pl_0143
+		Û|xhtml_entity_pl_003
+		”|xhtml_entity_pl_003
+		ú|xhtml_entity_pl_015
+		å|xhtml_entity_pl_015
+		ü|xhtml_entity_pl_017
+		è|xhtml_entity_pl_0179
+		ø|xhtml_entity_pl_017
+		Ø|xhtml_entity_pl_017
+	FR
+		a|xhtml_entity_fr_agrave
+		A|xhtml_entity_fr_agrave2
+		‚|xhtml_entity_fr_acirc
+		¬|xhtml_entity_fr_acirc2
+		Á|xhtml_entity_fr_ccedil
+		«|xhtml_entity_fr_ccedil2
+		È|xhtml_entity_fr_eacute
+		…|xhtml_entity_fr_eacute2
+		e|xhtml_entity_fr_egrave
+		E|xhtml_entity_fr_egrave2
+		e|xhtml_entity_fr_ecirc
+		E|xhtml_entity_fr_ecirc2
+		Ó|xhtml_entity_fr_icirc
+		Œ|xhtml_entity_fr_icirc2
+		i|xhtml_entity_fr_iuml
+		I|xhtml_entity_fr_iuml2
+		Ù|xhtml_entity_fr_ocirc
+		‘|xhtml_entity_fr_ocirc2
+		u|xhtml_entity_fr_ucirc
+		U|xhtml_entity_fr_ucirc2

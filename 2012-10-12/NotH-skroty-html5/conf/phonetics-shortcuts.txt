@@ -1,0 +1,25 @@
+
+
+
+EI	phonetics_i
+LI	phonetics_i_long
+
+
+EE	phonetics_e
+EH	phonetics_ash
+EA	phonetics_a
+
+
+EO	phonetics_o
+LO	phonetics_o_long
+
+
+EU	phonetics_u
+LU	phonetics_u_long
+
+EW	phonetics_wedge
+
+ES	phonetics_schwa_long
+LS	phonetics_schwa
+
+

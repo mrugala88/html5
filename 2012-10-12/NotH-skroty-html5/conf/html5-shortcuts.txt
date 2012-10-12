@@ -1,0 +1,279 @@
+#
+# Definicje skrótów klawiszowych jêzyka XHTML 1.0
+#
+#
+#  Uwaga: nie wszystkie komendy maj± swoje skróty.
+#
+#
+
+
+BK	html5_comment
+
+QA	html5_entity_amp
+QS	html5_entity_nbsp
+QL	html5_entity_lt
+QG	html5_entity_gt
+
+QC	html5_entity_copy
+QH	html5_entity_hellip
+QX	html5_entity_times
+QN	html5_entity_ndash
+QM	html5_entity_mdash
+#QT	html5_entity_pair_tag
+QP	html5_entity_pair_plquote
+
+QU	html5_entity_uarr
+QU	html5_entity_rarr
+QU	html5_entity_darr
+QU	html5_entity_larr
+
+
+
+#QZ	html5_entity_larr
+#QZ	html5_entity_darr
+#QZ	html5_entity_rarr
+#QZ	html5_entity_uarr
+#QZ	html5_entity_pair_plquote
+#QZ	html5_entity_mdash
+#QZ	html5_entity_ndash
+#QZ	html5_entity_times
+#QZ	html5_entity_hellip
+#QZ	html5_entity_copy
+#QZ	html5_entity_gt
+#QZ	html5_entity_lt
+#QZ	html5_entity_nbsp
+#QZ	html5_entity_amp
+
+
+
+#BT	html5_doctype_1_0_frameset
+#BT	html5_doctype_1_0_transitional
+#BT	html5_doctype_1_0_strict
+
+
+BM	html5_meta_charset_windows_1250
+BM	html5_meta_charset_iso_8859_2
+BM	html5_meta_charset_utf_8
+
+
+BB	html5_element_html
+BB	html5_element_html_with_ns
+BB	html5_element_html_with_ns_lang_pl
+BB	html5_element_head
+BB	html5_element_title
+BB	html5_element_body
+BB	html5_element_address
+
+
+DD	html5_element_div
+DS	html5_element_span
+
+
+D1	html5_element_h1
+D2	html5_element_h2
+D3	html5_element_h3
+D4	html5_element_h4
+D5	html5_element_h5
+D6	html5_element_h6
+
+EE	html5_element_em
+ED	html5_element_dfn
+EM	html5_element_samp
+EK	html5_element_kbd
+EV	html5_element_var
+EC	html5_element_cite
+EC	html5_element_code
+
+EA	html5_element_abbr
+EA	html5_element_abbr2
+
+EA	html5_element_acronym
+EA	html5_element_acronym2
+
+EI	html5_element_sub
+EI	html5_element_sup
+
+ES	html5_element_strong
+
+EQ	html5_element_q
+EB	html5_element_blockquote
+
+DP	html5_element_p
+DR	html5_element_br
+DC	html5_element_pre
+
+LI	html5_element_li
+LU	html5_element_ul
+LO	html5_element_ol
+LD	html5_element_dl
+LD	html5_element_dd
+LD	html5_element_dt
+
+DH	html5_element_hr
+
+
+
+
+BL	html5_element_link
+#DB	html5_element_base
+DX	html5_element_a2
+DA	html5_element_a
+
+
+BL	html5_element_link_alternate
+BL	html5_element_link_stylesheet
+BL	html5_element_link_start
+BL	html5_element_link_next
+BL	html5_element_link_prev
+BL	html5_element_link_contents
+BL	html5_element_link_index
+BL	html5_element_link_glossary
+BL	html5_element_link_copyright
+BL	html5_element_link_chapter
+BL	html5_element_link_section
+BL	html5_element_link_subsection
+BL	html5_element_link_appendix
+BL	html5_element_link_help
+BL	html5_element_link_bookmark
+BL	html5_element_link_sortcuticon
+
+
+DI	html5_element_img
+
+
+
+
+
+B1	html5_page_1
+B2	html5_page_2
+B3	html5_page_3
+
+
+
+
+BS	html5_style1
+BZ	html5_style2
+BW	html5_style3
+BP	html5_style4
+
+
+
+
+WD	html5_element_td
+
+
+WH	html5_element_th_row
+WH	html5_element_th_col
+WH	html5_element_th
+WR	html5_element_tr
+
+
+
+WC	html5_element_colgroup
+WC	html5_element_col
+WC	html5_element_caption
+
+#WT	html5_prefabrykat_theadtfoottbody
+
+WT	html5_element_table
+
+W1	html5_prefabrykat_tabela1
+W2	html5_prefabrykat_tabela2
+W3	html5_prefabrykat_tabela3
+W4	html5_prefabrykat_tabela4
+
+
+
+#de
+KD	html5_entity_de_szlig
+KD	html5_entity_de_uuml2
+KD	html5_entity_de_uuml
+KD	html5_entity_de_ouml2
+KD	html5_entity_de_ouml
+KD	html5_entity_de_auml2
+KD	html5_entity_de_auml
+
+
+
+
+#pl
+
+KP	html5_entity_pl_017
+KP	html5_entity_pl_017
+KP	html5_entity_pl_0179
+KP	html5_entity_pl_017
+KP	html5_entity_pl_015
+KP	html5_entity_pl_015
+KP	html5_entity_pl_003
+KP	html5_entity_pl_003
+KP	html5_entity_pl_0143
+KP	html5_entity_pl_0144
+KP	html5_entity_pl_0141
+KP	html5_entity_pl_0142
+KP	html5_entity_pl_0118
+KP	html5_entity_pl_0119
+KP	html5_entity_pl_0106
+KP	html5_entity_pl_0107
+KP	html5_entity_pl_0104
+KP	html5_entity_pl_0105
+
+
+
+#FR
+KF	html5_entity_fr_ucirc2
+KF	html5_entity_fr_ucirc
+KF	html5_entity_fr_ocirc2
+KF	html5_entity_fr_ocirc
+KF	html5_entity_fr_iuml2
+KF	html5_entity_fr_iuml
+KF	html5_entity_fr_icirc2
+KF	html5_entity_fr_icirc
+KF	html5_entity_fr_ecirc2
+KF	html5_entity_fr_ecirc
+KF	html5_entity_fr_egrave2
+KF	html5_entity_fr_egrave
+KF	html5_entity_fr_eacute2
+KF	html5_entity_fr_eacute
+KF	html5_entity_fr_ccedil2
+KF	html5_entity_fr_ccedil
+KF	html5_entity_fr_acirc2
+KF	html5_entity_fr_acirc
+KF	html5_entity_fr_agrave2
+KF	html5_entity_fr_agrave
+
+
+
+
+Q1	html5_lorem_ipsum_1
+Q2	html5_lorem_ipsum_2
+
+
+GF	html5_element_form
+
+
+GI	html5_element_input
+GI	html5_element_input_checkbox
+GI	html5_element_input_radio
+GI	html5_element_input_submit
+GI	html5_element_input_hidden
+
+GI	html5_element_input_type
+GI	html5_element_input_text
+GI	html5_element_input_password
+GI	html5_element_input_reset
+GI	html5_element_input_file
+GI	html5_element_input_image
+GI	html5_element_input_button
+
+GB	html5_element_button
+GS	html5_element_select
+GO	html5_element_option
+GO	html5_element_optgroup
+GT	html5_element_textarea
+GL	html5_element_label
+GF	html5_element_fieldset
+GL	html5_element_legend
+
+
+
+

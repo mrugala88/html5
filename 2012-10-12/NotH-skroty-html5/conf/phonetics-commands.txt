@@ -1,0 +1,29 @@
+
+#phonetics_i	^|ɪ
+phonetics_i	^|i
+phonetics_i_long	^|iː
+
+
+phonetics_e	^|e
+phonetics_ash	^|æ
+phonetics_a	^|ɑː
+
+
+phonetics_o	^|ɔ
+#phonetics_o	^|ɒ
+phonetics_o_long	^|ɔː
+
+
+#phonetics_u	^|ʊ
+phonetics_u	^|u
+phonetics_u_long	^|uː
+
+phonetics_wedge	^|ʌ
+
+phonetics_schwa_long	^|əː
+phonetics_schwa	^|ə
+
+
+
+
+#phonetics_	^|

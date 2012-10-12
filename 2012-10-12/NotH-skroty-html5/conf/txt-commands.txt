@@ -1,0 +1,6 @@
+text_przecinek	^|,
+text_kropka	^|.
+text_quot	"^|"
+
+
+#text_pl_quot ju¿ zdefiniowany w HTML: ^QP

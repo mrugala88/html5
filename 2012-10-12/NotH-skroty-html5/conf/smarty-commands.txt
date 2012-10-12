@@ -1,0 +1,32 @@
+# Struktura pliku:
+#    # - komentarz jednolinijkowy
+#    linie puste ignorujemy
+#
+# Wpisy:
+#    identyfikator     tekst
+#
+#
+# Separatorem kolumn jest znak tabulacji.
+# Znak tabulacji nie jest u¿yty w polach: identyfikator, tekst.
+#
+# Przyk³adowy wpis:
+#
+#    html_head		<html>\n|^\n</html>
+#
+#
+# Znaki specjalne u¿yte w polu tekst:
+#
+#    znak  \n  - z³amanie wiersza
+#    znak  \t  - wciêcie
+#    znak  |   - po³o¿enie kursora po wstawieniu skrótu (jeœli zaznaczony by³ blok - to nie dzia³a)
+#    znak  ^   - miejsce umieszczenia bloku jeœli by³ zaznaczony
+
+
+smarty_variable	{$|^}
+smarty_comment	{*|^*}
+smarty_if	{if |}\n    ^\n{/if}
+smarty_if_else	{if |}\n    ^\n{else}\n{/if}
+smarty_if_else_if	{if |}\n    \n{elseif }\n{/if}
+smarty_section	{section name= loop=|}    ^\n{/section}
+smarty_include	{include file="^|"}
+smarty_foreach	{foreach from=| item=x}\n    ^\n{/foreach}

@@ -1,0 +1,78 @@
+#
+# Komendy XHTML 1.0
+#
+# Struktura pliku:
+#    # - komentarz jednolinijkowy
+#    linie puste ignorujemy
+#
+# Wpisy:
+#    identyfikator     tekst
+#
+#
+# Separatorem kolumn jest znak tabulacji.
+# Znak tabulacji nie jest uøyty w polach: identyfikator, tekst.
+#
+# Przyk≥adowy wpis:
+#
+#    html_head		<html>\n|^\n</html>
+#
+#
+# Znaki specjalne uøyte w polu tekst:
+#
+#    znak  \n  - z≥amanie wiersza
+#    znak  \t  - wciÍcie
+#    znak  |   - po≥oøenie kursora po wstawieniu skrÛtu (jeúli zaznaczony by≥ blok - to nie dzia≥a)
+#    znak  ^   - miejsce umieszczenia bloku jeúli by≥ zaznaczony
+
+
+php_open_close_full	<?php\n|^\n?>
+php_statement_if	if (^|) {\n    ;\n}
+php_statement_if2	if (^|) {\n    ;\n} else {\n    ;\n}
+php_statement_if3	if (^|) {\n    ;\n} elseif () {\n    ;\n} elseif () {\n    ;\n}
+php_statement_for	for ($i = 0; $i < ^|; $i++) {\n    ;\n}
+php_statement_for2	$tmp = count($^|);\nfor ($i = 0; $i < $tmp; $i++) {\n    ;\n}
+php_statement_swith	switch (^|) {\ncase 1:\n    break;\n\ncase 2:\n    break;\n\ndefault:\n    break;\n\n}
+php_statement_while	while (^|) {\n    ;\n}
+php_statement_foreach	foreach (^|) {\n    ;\n}
+php_statement_do	do {\n    ;\n} while (^|);
+
+
+php_function_definition	function |()\n{\n    ^;\n}
+php_function_definition2	public function |()\n{\n    ^;\n}
+php_function_definition3	public static function |()\n{\n    ^;\n}
+php_function_definition4	public function __toString()\n{\n    ^|;\n}
+php_function_definition5	public function __construct()\n{\n    ^|;\n}
+
+
+
+php_statement_echo1	echo '|^';
+php_statement_echo2	echo "|^";
+php_statement_echo3	echo |^;
+php_statement_require_once	require_once '^|';
+
+
+php_debug1	\necho '<pre>';\nvar_dump(|^);\necho '</pre>';\n
+php_debug2	\necho '<br />---[ |^ ]---<br />';\n
+php_debug3	\nerror_reporting(E_ALL);\nini_set('display_errors', 1);\n^|
+php_debug4	\nerror_reporting(0);\nini_set('display_errors', 0);\n^|
+php_debug5	πÊÍ≥ÒÛúüø•∆ £—”åèØ^|
+
+
+
+php_comment1	/* ^| */	B
+php_comment2	// |^	L
+
+php_comment_block1	* ^|
+php_comment_block2	/*\n ^|\n */
+
+
+
+php_superglobal_requrest_uri	$_SERVER['REQUEST_URI']
+php_superglobal_php_self	$_SERVER['PHP_SELF']
+
+php_rawtemplates_php	<?php ^|; ?>
+php_rawtemplates_echo	<?php echo ^|; ?>
+php_rawtemplates_if	<?php if (): ?>\n    ^|\n<?php endif; ?>
+php_rawtemplates_ifelse	<?php if (): ?>\n    ^|\n<?php else: ?>\n    \n<?php endif; ?>
+php_rawtemplates_ifelseif	<?php if (): ?>\n    ^|\n<?php elseif (): ?>\n    \n<?php else: ?>\n    \n<?php endif; ?>
+php_rawtemplates_foreach	<?php foreach (^|) : ?>\n<?php endforeach; ?>

@@ -1,0 +1,275 @@
+Strona
+	Szablony stron
+		XHTML 1.0 Strict, pl, utf-8, bez stylÛw|html5_page_1
+		XHTML 1.0 Strict, pl, utf-8, style wew.|html5_page_2
+		XHTML 1.0 Strict, pl, utf-8, style zew.|html5_page_3
+	Komentarz|html5_comment
+	DOCTYPE
+		DOCTYPE XHTML 1.0 strict|html5_doctype_1_0_strict
+		DOCTYPE XHTML 1.0 transitional|html5_doctype_1_0_transitional
+		DOCTYPE XHTML 1.0 frameset|html5_doctype_1_0_frameset
+	Kodowanie znakÛw
+		Kodowanie znakÛw iso-8859-2|html5_meta_charset_iso_8859_2
+		Kodowanie znakÛw windows-1250|html5_meta_charset_windows_1250
+		Kodowanie znakÛw utf-8|html5_meta_charset_utf_8
+	Element html|html5_element_html
+	Element html z ns|html5_element_html_with_ns
+	Element html z ns i lang|html5_element_html_with_ns_lang_pl
+	Element head|html5_element_head
+	Element title|html5_element_title
+	Element body|html5_element_body
+	Element address|html5_element_address
+Style
+	Style zewnÍtrzne style.css|html5_style1
+	Style zewnÍtrzne ogÛlne|html5_style2
+	Style wewnÍtrzne|html5_style3
+	Style do druku|html5_style4
+	Style XML style.css|html5_style5
+	Style XML ogÛlne|html5_style6
+Znaki specjalne
+	&|html5_entity_amp
+	twarda spacja|html5_entity_nbsp
+	<|html5_entity_lt
+	>|html5_entity_gt
+	copyright|html5_entity_copy
+	"|html5_entity_quot
+	'|html5_entity_apos
+	pl cudzys≥Ûw otw.|html5_entity_bdquo
+	pl cudzys≥Ûw zam.|html5_entity_rdquo
+	...|html5_entity_hellip
+	x|html5_entity_times
+	pÛ≥pauza|html5_entity_ndash
+	myúlnik|html5_entity_mdash
+	Strza≥ki
+		w gÛrÍ|html5_entity_uarr
+		w prawo|html5_entity_rarr
+		w dÛ≥|html5_entity_darr
+		w lewo|html5_entity_larr
+	Para
+		Tag|html5_entity_pair_tag
+		Polski cudzys≥Ûw (oba znaki)|html5_entity_pair_plquote
+	Wszystkie
+		&|html5_entity_amp
+		twarda spacja|html5_entity_nbsp
+		<|html5_entity_lt
+		>|html5_entity_gt
+		copyright|html5_entity_copy
+		"|html5_entity_quot
+		'|html5_entity_apos
+		Polski cudzys≥Ûw (oba znaki)|html5_entity_pair_plquote
+		pl cudzys≥Ûw otw.|html5_entity_bdquo
+		pl cudzys≥Ûw zam.|html5_entity_rdquo
+		...|html5_entity_hellip
+		x|html5_entity_times
+		pÛ≥pauza|html5_entity_ndash
+		myúlnik|html5_entity_mdash
+		strza≥ka w gÛrÍ|html5_entity_uarr
+		strza≥ka w prawo|html5_entity_rarr
+		strza≥ka w dÛ≥|html5_entity_darr
+		strza≥ka w lewo|html5_entity_larr
+Nag≥Ûwki
+	Element h1|html5_element_h1
+	Element h2|html5_element_h2
+	Element h3|html5_element_h3
+	Element h4|html5_element_h4
+	Element h5|html5_element_h5
+	Element h6|html5_element_h6
+Tekst
+	Element p|html5_element_p
+	Element br|html5_element_br
+	Element pre|html5_element_pre
+	Elementy frazowe
+		Element em|html5_element_em
+		Element strong|html5_element_strong
+		Element dfn|html5_element_dfn
+		Element code|html5_element_code
+		Element samp|html5_element_samp
+		Element kbd|html5_element_kbd
+		Element var|html5_element_var
+		Element cite|html5_element_cite
+		Element abbr|html5_element_abbr
+		Element abbr z lang|html5_element_abbr2
+		Element acronym|html5_element_acronym
+		Element acronym z lang|html5_element_acronym2
+	Cytaty
+		Element q|html5_element_q
+		Element blockquote|html5_element_blockquote
+	Indeksy
+		Element sub|html5_element_sub
+		Element sup|html5_element_sup
+Elementy ogÛlne
+	Element div|html5_element_div
+	Element span|html5_element_span
+Listy
+	Element ul|html5_element_ul
+	Element ol|html5_element_ol
+	Element li|html5_element_li
+	Element dl|html5_element_dl
+	Element dt|html5_element_dt
+	Element dd|html5_element_dd
+Tabele
+	Element table|html5_element_table
+	Element tr|html5_element_tr
+	Element td|html5_element_td
+	Element th|html5_element_th
+	Element caption|html5_element_caption
+	Element thead|html5_element_thead
+	Element tfoot|html5_element_tfoot
+	Element tbody|html5_element_tbody
+	Element col|html5_element_col
+	Element colgroup|html5_element_colgroup
+	Prefabrykaty
+		th scope="col"|html5_element_th_col
+		th scope="row"|html5_element_th_row
+		Elementy thead/tfoot/tbody|html5_prefabrykat_theadtfoottbody
+		Tabela 2x2, ver. 1|html5_prefabrykat_tabela1
+		Tabela 2x2, ver. 2|html5_prefabrykat_tabela2
+		Tabela 2x2, ver. 3|html5_prefabrykat_tabela3
+		Tabela 6x2|html5_prefabrykat_tabela4
+Hiper≥πcza
+	Element a|html5_element_a
+	<a href="X">X</a>|html5_element_a2
+	Element link|html5_element_link
+	Element base|html5_element_base
+	Link
+		alternate|html5_element_link_alternate
+		stylesheet|html5_element_link_stylesheet
+		start|html5_element_link_start
+		next|html5_element_link_next
+		prev|html5_element_link_prev
+		contents|html5_element_link_contents
+		index|html5_element_link_index
+		glossary|html5_element_link_glossary
+		copyright|html5_element_link_copyright
+		chapter|html5_element_link_chapter
+		section|html5_element_link_section
+		subsection|html5_element_link_subsection
+		appendix|html5_element_link_appendix
+		help|html5_element_link_help
+		bookmark|html5_element_link_bookmark
+		shortcut icon|html5_element_link_sortcuticon
+Multimedia
+	Element img|html5_element_img
+	Element object|html5_element_object
+	Element param|html5_element_param
+	Element map|html5_element_map
+	Element area|html5_element_area
+Formularze
+	Element form|html5_element_form
+	Input
+		Element input domyúlny|html5_element_input
+		Element input typu checkbox|html5_element_input_checkbox
+		Element input typu radio|html5_element_input_radio
+		Element input typu submit|html5_element_input_submit
+		Element input typu hidden|html5_element_input_hidden
+		Element input type|html5_element_input_type
+		Element input typu text|html5_element_input_text
+		Element input typu password|html5_element_input_password
+		Element input typu reset|html5_element_input_reset
+		Element input typu file|html5_element_input_file
+		Element input typu image|html5_element_input_image
+		Element input typu button|html5_element_input_button
+	Element button|html5_element_button
+	Element select|html5_element_select
+	Element option|html5_element_option
+	Element optgroup|html5_element_optgroup
+	Element textarea|html5_element_textarea
+	Element label|html5_element_label
+	Element fieldset|html5_element_fieldset
+	Element legend|html5_element_legend
+Inne
+	Element hr|html5_element_hr
+JavaScript
+	zewnÍtrzny|html5_script1
+	wewnÍtrzny|html5_script2
+	noscript|html5_script3
+Lorem ipsum
+	Jeden akapit|html5_lorem_ipsum_1
+	Dwa akapity|html5_lorem_ipsum_2
+XML
+	Prolog|xml_prolog
+	Style CSS|xml_stylesheet	
+Zmiany
+	Element ins|html5_element_ins
+	Element del|html5_element_del
+Meta
+	autor|html5_meta_author
+	copyright|html5_meta_copyright
+	generator|html5_meta_generator
+	reply-to|html5_meta_reply_to
+	publisher|html5_meta_publisher
+	company|html5_meta_company
+	content-language|html5_meta_content_language
+	description|html5_meta_description
+	keywords|html5_meta_keywords
+	robots|html5_meta_robots
+	googlebot|html5_meta_googlebot
+	date|html5_meta_date
+	expires|html5_meta_expires
+	cache-control|html5_meta_cache_control
+	content-style-type|html5_meta_content_style_type
+	content-script-type|html5_meta_content_script_type
+	MSSmartTagsPreventParsing|html5_meta_mssmarttagspreventparsing
+	imagetoolbar|html5_meta_imagetoolbar
+	Folklor
+		title|html5_meta_title
+		abstract|html5_meta_abstract
+		revisit-after|html5_meta_revisit_after
+		rating|html5_meta_rating
+		rating, ver. 2|html5_meta_rating2
+		doc-class|html5_meta_doc_class
+		distribution|html5_meta_distribution
+		resource-type|html5_meta_resource_type
+		page-topis|html5_meta_page_topic
+		page-type|html5_meta_page_type
+		audience|html5_meta_audience
+	Wszystkie|html5_meta_all
+Ogonki
+	DE
+		‰|html5_entity_de_auml
+		ƒ|html5_entity_de_auml2
+		ˆ|html5_entity_de_ouml
+		÷|html5_entity_de_ouml2
+		¸|html5_entity_de_uuml
+		‹|html5_entity_de_uuml2
+		ﬂ|html5_entity_de_szlig
+	PL
+		π|html5_entity_pl_0105
+		•|html5_entity_pl_0104
+		Ê|html5_entity_pl_0107
+		∆|html5_entity_pl_0106
+		Í|html5_entity_pl_0119
+		 |html5_entity_pl_0118
+		≥|html5_entity_pl_0142
+		£|html5_entity_pl_0141
+		Ò|html5_entity_pl_0144
+		—|html5_entity_pl_0143
+		Û|html5_entity_pl_003
+		”|html5_entity_pl_003
+		ú|html5_entity_pl_015
+		å|html5_entity_pl_015
+		ü|html5_entity_pl_017
+		è|html5_entity_pl_0179
+		ø|html5_entity_pl_017
+		Ø|html5_entity_pl_017
+	FR
+		a|html5_entity_fr_agrave
+		A|html5_entity_fr_agrave2
+		‚|html5_entity_fr_acirc
+		¬|html5_entity_fr_acirc2
+		Á|html5_entity_fr_ccedil
+		«|html5_entity_fr_ccedil2
+		È|html5_entity_fr_eacute
+		…|html5_entity_fr_eacute2
+		e|html5_entity_fr_egrave
+		E|html5_entity_fr_egrave2
+		e|html5_entity_fr_ecirc
+		E|html5_entity_fr_ecirc2
+		Ó|html5_entity_fr_icirc
+		Œ|html5_entity_fr_icirc2
+		i|html5_entity_fr_iuml
+		I|html5_entity_fr_iuml2
+		Ù|html5_entity_fr_ocirc
+		‘|html5_entity_fr_ocirc2
+		u|html5_entity_fr_ucirc
+		U|html5_entity_fr_ucirc2

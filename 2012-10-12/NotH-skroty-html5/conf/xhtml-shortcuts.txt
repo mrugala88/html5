@@ -1,0 +1,279 @@
+#
+# Definicje skrótów klawiszowych jêzyka XHTML 1.0
+#
+#
+#  Uwaga: nie wszystkie komendy maj± swoje skróty.
+#
+#
+
+
+BK	xhtml_comment
+
+QA	xhtml_entity_amp
+QS	xhtml_entity_nbsp
+QL	xhtml_entity_lt
+QG	xhtml_entity_gt
+
+QC	xhtml_entity_copy
+QH	xhtml_entity_hellip
+QX	xhtml_entity_times
+QN	xhtml_entity_ndash
+QM	xhtml_entity_mdash
+#QT	xhtml_entity_pair_tag
+QP	xhtml_entity_pair_plquote
+
+QU	xhtml_entity_uarr
+QU	xhtml_entity_rarr
+QU	xhtml_entity_darr
+QU	xhtml_entity_larr
+
+
+
+#QZ	xhtml_entity_larr
+#QZ	xhtml_entity_darr
+#QZ	xhtml_entity_rarr
+#QZ	xhtml_entity_uarr
+#QZ	xhtml_entity_pair_plquote
+#QZ	xhtml_entity_mdash
+#QZ	xhtml_entity_ndash
+#QZ	xhtml_entity_times
+#QZ	xhtml_entity_hellip
+#QZ	xhtml_entity_copy
+#QZ	xhtml_entity_gt
+#QZ	xhtml_entity_lt
+#QZ	xhtml_entity_nbsp
+#QZ	xhtml_entity_amp
+
+
+
+#BT	xhtml_doctype_1_0_frameset
+#BT	xhtml_doctype_1_0_transitional
+#BT	xhtml_doctype_1_0_strict
+
+
+BM	xhtml_meta_charset_windows_1250
+BM	xhtml_meta_charset_iso_8859_2
+BM	xhtml_meta_charset_utf_8
+
+
+BB	xhtml_element_html
+BB	xhtml_element_html_with_ns
+BB	xhtml_element_html_with_ns_lang_pl
+BB	xhtml_element_head
+BB	xhtml_element_title
+BB	xhtml_element_body
+BB	xhtml_element_address
+
+
+DD	xhtml_element_div
+DS	xhtml_element_span
+
+
+D1	xhtml_element_h1
+D2	xhtml_element_h2
+D3	xhtml_element_h3
+D4	xhtml_element_h4
+D5	xhtml_element_h5
+D6	xhtml_element_h6
+
+EE	xhtml_element_em
+ED	xhtml_element_dfn
+EM	xhtml_element_samp
+EK	xhtml_element_kbd
+EV	xhtml_element_var
+EC	xhtml_element_cite
+EC	xhtml_element_code
+
+EA	xhtml_element_abbr
+EA	xhtml_element_abbr2
+
+EA	xhtml_element_acronym
+EA	xhtml_element_acronym2
+
+EI	xhtml_element_sub
+EI	xhtml_element_sup
+
+ES	xhtml_element_strong
+
+EQ	xhtml_element_q
+EB	xhtml_element_blockquote
+
+DP	xhtml_element_p
+DR	xhtml_element_br
+DC	xhtml_element_pre
+
+LI	xhtml_element_li
+LU	xhtml_element_ul
+LO	xhtml_element_ol
+LD	xhtml_element_dl
+LD	xhtml_element_dd
+LD	xhtml_element_dt
+
+DH	xhtml_element_hr
+
+
+
+
+BL	xhtml_element_link
+#DB	xhtml_element_base
+DX	xhtml_element_a2
+DA	xhtml_element_a
+
+
+BL	xhtml_element_link_alternate
+BL	xhtml_element_link_stylesheet
+BL	xhtml_element_link_start
+BL	xhtml_element_link_next
+BL	xhtml_element_link_prev
+BL	xhtml_element_link_contents
+BL	xhtml_element_link_index
+BL	xhtml_element_link_glossary
+BL	xhtml_element_link_copyright
+BL	xhtml_element_link_chapter
+BL	xhtml_element_link_section
+BL	xhtml_element_link_subsection
+BL	xhtml_element_link_appendix
+BL	xhtml_element_link_help
+BL	xhtml_element_link_bookmark
+BL	xhtml_element_link_sortcuticon
+
+
+DI	xhtml_element_img
+
+
+
+
+
+B1	xhtml_page_1
+B2	xhtml_page_2
+B3	xhtml_page_3
+
+
+
+
+BS	xhtml_style1
+BZ	xhtml_style2
+BW	xhtml_style3
+BP	xhtml_style4
+
+
+
+
+WD	xhtml_element_td
+
+
+WH	xhtml_element_th_row
+WH	xhtml_element_th_col
+WH	xhtml_element_th
+WR	xhtml_element_tr
+
+
+
+WC	xhtml_element_colgroup
+WC	xhtml_element_col
+WC	xhtml_element_caption
+
+#WT	xhtml_prefabrykat_theadtfoottbody
+
+WT	xhtml_element_table
+
+W1	xhtml_prefabrykat_tabela1
+W2	xhtml_prefabrykat_tabela2
+W3	xhtml_prefabrykat_tabela3
+W4	xhtml_prefabrykat_tabela4
+
+
+
+#de
+KD	xhtml_entity_de_szlig
+KD	xhtml_entity_de_uuml2
+KD	xhtml_entity_de_uuml
+KD	xhtml_entity_de_ouml2
+KD	xhtml_entity_de_ouml
+KD	xhtml_entity_de_auml2
+KD	xhtml_entity_de_auml
+
+
+
+
+#pl
+
+KP	xhtml_entity_pl_017
+KP	xhtml_entity_pl_017
+KP	xhtml_entity_pl_0179
+KP	xhtml_entity_pl_017
+KP	xhtml_entity_pl_015
+KP	xhtml_entity_pl_015
+KP	xhtml_entity_pl_003
+KP	xhtml_entity_pl_003
+KP	xhtml_entity_pl_0143
+KP	xhtml_entity_pl_0144
+KP	xhtml_entity_pl_0141
+KP	xhtml_entity_pl_0142
+KP	xhtml_entity_pl_0118
+KP	xhtml_entity_pl_0119
+KP	xhtml_entity_pl_0106
+KP	xhtml_entity_pl_0107
+KP	xhtml_entity_pl_0104
+KP	xhtml_entity_pl_0105
+
+
+
+#FR
+KF	xhtml_entity_fr_ucirc2
+KF	xhtml_entity_fr_ucirc
+KF	xhtml_entity_fr_ocirc2
+KF	xhtml_entity_fr_ocirc
+KF	xhtml_entity_fr_iuml2
+KF	xhtml_entity_fr_iuml
+KF	xhtml_entity_fr_icirc2
+KF	xhtml_entity_fr_icirc
+KF	xhtml_entity_fr_ecirc2
+KF	xhtml_entity_fr_ecirc
+KF	xhtml_entity_fr_egrave2
+KF	xhtml_entity_fr_egrave
+KF	xhtml_entity_fr_eacute2
+KF	xhtml_entity_fr_eacute
+KF	xhtml_entity_fr_ccedil2
+KF	xhtml_entity_fr_ccedil
+KF	xhtml_entity_fr_acirc2
+KF	xhtml_entity_fr_acirc
+KF	xhtml_entity_fr_agrave2
+KF	xhtml_entity_fr_agrave
+
+
+
+
+Q1	xhtml_lorem_ipsum_1
+Q2	xhtml_lorem_ipsum_2
+
+
+GF	xhtml_element_form
+
+
+GI	xhtml_element_input
+GI	xhtml_element_input_checkbox
+GI	xhtml_element_input_radio
+GI	xhtml_element_input_submit
+GI	xhtml_element_input_hidden
+
+GI	xhtml_element_input_type
+GI	xhtml_element_input_text
+GI	xhtml_element_input_password
+GI	xhtml_element_input_reset
+GI	xhtml_element_input_file
+GI	xhtml_element_input_image
+GI	xhtml_element_input_button
+
+GB	xhtml_element_button
+GS	xhtml_element_select
+GO	xhtml_element_option
+GO	xhtml_element_optgroup
+GT	xhtml_element_textarea
+GL	xhtml_element_label
+GF	xhtml_element_fieldset
+GL	xhtml_element_legend
+
+
+
+

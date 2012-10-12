@@ -1,0 +1,89 @@
+BI	css_selector_id
+BC	css_selector_class
+
+BB	css_selector_html_body
+BB	css_selector_html
+BB	css_selector_body
+BB	css_selector_address
+
+
+D1	css_selector_h1
+D2	css_selector_h2
+D3	css_selector_h3
+D4	css_selector_h4
+D5	css_selector_h5
+D6	css_selector_h6
+
+
+DA	css_selector_a
+DA	css_selector_a_link
+DA	css_selector_a_visited
+DA	css_selector_a_hover
+DA	css_selector_a_active
+
+DA	css_selector_a_lvha
+
+
+DP	css_selector_p
+DC	css_selector_pre
+DR	css_selector_br
+
+
+EE	css_selector_em
+ES	css_selector_strong
+ED	css_selector_dfn
+EC	css_selector_code
+EM	css_selector_samp
+EK	css_selector_kbd
+EV	css_selector_var
+EC	css_selector_cite
+EA	css_selector_abbr
+EA	css_selector_acronym
+
+EQ	css_selector_q
+EB	css_selector_blockquote
+
+EI	css_selector_sub
+EI	css_selector_sup
+
+DD	css_selector_div
+DS	css_selector_span
+
+DI	css_selector_img
+
+#css_selector_ins	ins {\n    |^\n}	B
+#css_selector_del	del {\n    |^\n}	B
+
+LU	css_selector_ul
+LO	css_selector_ol
+LI	css_selector_li
+LD	css_selector_dl
+LD	css_selector_dt
+LD	css_selector_dd
+
+
+WT	css_selector_table
+WD	css_selector_td
+WH	css_selector_th
+WR	css_selector_tr
+WC	css_selector_caption
+#css_selector_thead	thead {\n    |^\n}	B
+#css_selector_tfoot	tfoot {\n    |^\n}	B
+#css_selector_tbody	tbody {\n    |^\n}	B
+
+
+
+GF	css_selector_form
+GI	css_selector_input
+
+
+GB	css_selector_button
+GS	css_selector_select
+GO	css_selector_option
+GO	css_selector_optgroup
+GT	css_selector_textarea
+GL	css_selector_label
+GF	css_selector_fieldset
+GL	css_selector_legend
+
+DH	css_selector_hr

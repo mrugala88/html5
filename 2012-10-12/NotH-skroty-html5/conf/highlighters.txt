@@ -1,0 +1,28 @@
+# Plik definiuje domyœlne skojarzenia "kolorowaczy"
+# z typami plików (rozszerzenia), do których maj¹ byæ u¿ywane
+
+# WebPhpCli=php,php3,php4,php5,phtml
+WebWml=wml
+WebCss=css
+WebHtml=htm,html,shtml,xhtml,mht,mhtml,php,php3,php4,php5,phtml,tpl
+Vrml97=wrl,wrml,vrl,vrml,x3d
+CS=cs
+Java=java
+VB=bas
+JScript=js
+XML=xml,xsd,xsl,xslt,dtd
+VBScript=vbs
+Perl=pl,pm,cgi
+Python=py
+SQL=sql
+Ini=ini
+TeX=tex
+Cpp=c,cpp,h,hpp
+Dfm=dfm,xfm
+Pas=pas,pp,dpr,dpk,inc
+AWK=awk
+Bat=bat,cmd
+TclTk=tcl
+UNIXShellScript=sh
+AsmFile=asm
+DOT=dot

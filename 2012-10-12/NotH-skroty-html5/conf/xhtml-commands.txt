@@ -1,0 +1,320 @@
+#
+# Komendy XHTML 1.0
+#
+# Struktura pliku:
+#    # - komentarz jednolinijkowy
+#    linie puste ignorujemy
+#
+# Wpisy:
+#    identyfikator     tekst
+#
+#
+# Separatorem kolumn jest znak tabulacji.
+# Znak tabulacji nie jest u¿yty w polach: identyfikator, tekst.
+#
+# Przyk³adowy wpis:
+#
+#    html_head		<html>\n|^\n</html>
+#
+#
+# Znaki specjalne u¿yte w polu tekst:
+#
+#    znak  \n  - z³amanie wiersza
+#    znak  \t  - wciêcie
+#    znak  |   - po³o¿enie kursora po wstawieniu skrótu (jeœli zaznaczony by³ blok - to nie dzia³a)
+#    znak  ^   - miejsce umieszczenia bloku jeœli by³ zaznaczony
+
+
+xhtml_comment	<!--  |^  -->
+
+xhtml_entity_amp	&amp;|^
+xhtml_entity_nbsp	&nbsp;|^
+xhtml_entity_lt	&lt;|^
+xhtml_entity_gt	&gt;|^
+xhtml_entity_copy	&copy;|^
+xhtml_entity_quot	&quot;|^
+xhtml_entity_apos	&#39;|^
+xhtml_entity_bdquo	&bdquo;|^
+xhtml_entity_rdquo	&rdquo;|^
+xhtml_entity_hellip	&hellip;|^
+xhtml_entity_times	&times;|^
+xhtml_entity_ndash	&ndash;|^
+xhtml_entity_mdash	&mdash;|^
+xhtml_entity_uarr	&uarr;|^
+xhtml_entity_rarr	&rarr;|^
+xhtml_entity_darr	&darr;|^
+xhtml_entity_larr	&larr;|^
+xhtml_entity_pair_tag	&lt;|^&gt;
+xhtml_entity_pair_plquote	&bdquo;|^&rdquo;
+
+
+xhtml_entity_de_auml	&auml;|^
+xhtml_entity_de_auml2	&Auml;|^
+xhtml_entity_de_ouml	&ouml;|^
+xhtml_entity_de_ouml2	&Ouml;|^
+xhtml_entity_de_uuml	&uuml;|^
+xhtml_entity_de_uuml2	&Uuml;|^
+xhtml_entity_de_szlig	&szlig;|^
+
+
+xhtml_entity_pl_0105	&#x0105;|^
+xhtml_entity_pl_0104	&#x0104;|^
+xhtml_entity_pl_0107	&#x0107;|^
+xhtml_entity_pl_0106	&#x0106;|^
+xhtml_entity_pl_0119	&#x0119;|^
+xhtml_entity_pl_0118	&#x0118;|^
+xhtml_entity_pl_0142	&#x0142;|^
+xhtml_entity_pl_0141	&#x0141;|^
+xhtml_entity_pl_0144	&#x0144;|^
+xhtml_entity_pl_0143	&#x0143;|^
+xhtml_entity_pl_003	&#x00f3;|^
+xhtml_entity_pl_003	&#x00d3;|^
+xhtml_entity_pl_015	&#x015b;|^
+xhtml_entity_pl_015	&#x015a;|^
+xhtml_entity_pl_017	&#x017a;|^
+xhtml_entity_pl_0179	&#x0179;|^
+xhtml_entity_pl_017	&#x017c;|^
+xhtml_entity_pl_017	&#x017b;|^
+
+
+xhtml_entity_fr_agrave	&agrave;|^
+xhtml_entity_fr_agrave2	&Agrave;|^
+xhtml_entity_fr_acirc	&acirc;|^
+xhtml_entity_fr_acirc2	&Acirc;|^
+xhtml_entity_fr_ccedil	&ccedil;|^
+xhtml_entity_fr_ccedil2	&Ccedil;|^
+xhtml_entity_fr_eacute	&eacute;|^
+xhtml_entity_fr_eacute2	&Eacute;|^
+xhtml_entity_fr_egrave	&egrave;|^
+xhtml_entity_fr_egrave2	&Egrave;|^
+xhtml_entity_fr_ecirc	&ecirc;|^
+xhtml_entity_fr_ecirc2	&Ecirc;|^
+xhtml_entity_fr_icirc	&icirc;|^
+xhtml_entity_fr_icirc2	&Icirc;|^
+xhtml_entity_fr_iuml	&iuml;|^
+xhtml_entity_fr_iuml2	&Iuml;|^
+xhtml_entity_fr_ocirc	&ocirc;|^
+xhtml_entity_fr_ocirc2	&Ocirc;|^
+xhtml_entity_fr_ucirc	&ucirc;|^
+xhtml_entity_fr_ucirc2	&Ucirc;|^
+
+
+xhtml_doctype_1_0_strict	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">|^	B
+xhtml_doctype_1_0_transitional	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">|^	B
+xhtml_doctype_1_0_frameset	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">|^	B
+
+
+xhtml_meta_charset_iso_8859_2	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />|^	B
+xhtml_meta_charset_windows_1250	<meta http-equiv="Content-Type" content="text/html; charset=windows-1250" />|^	B
+xhtml_meta_charset_utf_8	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />|^	B
+
+
+xhtml_element_html	<html>\n|^\n</html>	B
+xhtml_element_html_with_ns	<html xmlns="http://www.w3.org/1999/xhtml">\n  |^\n</html>	B
+xhtml_element_html_with_ns_lang_pl	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">\n  |^\n</html>	B
+xhtml_element_head	<head>\n|^\n</head>	B
+xhtml_element_title	<title>|^</title>	B
+xhtml_element_body	<body>\n|^\n</body>	B
+xhtml_element_address	<address>|^</address>	B
+
+
+xhtml_element_div	<div>\n|^\n</div>
+xhtml_element_span	<span>|^</span>
+
+
+xhtml_element_h1	<h1>|^</h1>
+xhtml_element_h2	<h2>|^</h2>
+xhtml_element_h3	<h3>|^</h3>
+xhtml_element_h4	<h4>|^</h4>
+xhtml_element_h5	<h5>|^</h5>
+xhtml_element_h6	<h6>|^</h6>
+
+
+xhtml_element_p	\n<p>\n|^\n</p>\n
+
+xhtml_element_em	<em>|^</em>
+xhtml_element_strong	<strong>|^</strong>
+xhtml_element_dfn	<dfn>|^</dfn>
+xhtml_element_code	<code>|^</code>
+xhtml_element_samp	<samp>|^</samp>
+xhtml_element_kbd	<kbd>|^</kbd>
+xhtml_element_var	<var>|^</var>
+xhtml_element_cite	<cite>|^</cite>
+xhtml_element_abbr	<abbr title="">|^</abbr>
+xhtml_element_abbr2	<abbr title="" lang="">|^</abbr>
+xhtml_element_acronym	<acronym title="">|^</acronym>
+xhtml_element_acronym2	<acronym title="" lang="en">|^</acronym>
+
+
+xhtml_element_q	<q>|^</q>
+xhtml_element_blockquote	<blockquote>\n    |^\n</blockquote>
+
+
+xhtml_element_sub	<sub>|^</sub>
+xhtml_element_sup	<sup>|^</sup>
+
+xhtml_element_br	^<br />|
+xhtml_element_pre	\n<pre>\n|^\n</pre>\n
+
+# s. 99
+xhtml_element_ins	<ins>|^</ins>	B
+xhtml_element_del	<del>|^</del>	B
+
+
+xhtml_element_ul	<ul>\n|^\n</ul>	B
+xhtml_element_ol	<ol>\n|^\n</ol>	B
+xhtml_element_li	<li>|^</li>
+xhtml_element_dl	<dl>\n|^\n</dl>	B
+xhtml_element_dt	<dt>|^</dt>
+xhtml_element_dd	<dd>|^</dd>
+
+
+xhtml_element_table	<table>\n    |^\n</table>	B
+xhtml_element_tr	<tr>\n    |^\n</tr>
+xhtml_element_td	<td>|^</td>
+xhtml_element_th_row	<th scope="row">|^</th>
+xhtml_element_th_col	<th scope="col">|^</th>
+xhtml_element_th	<th>|^</th>
+xhtml_element_caption	<caption>|^</caption>
+xhtml_element_thead	<thead>\n    |^\n</thead>
+xhtml_element_tfoot	<tfoot>\n    |^\n</tfoot>
+xhtml_element_tbody	<tbody>\n    |^\n</tbody>
+xhtml_element_col	<col />|^
+xhtml_element_colgroup	<colgroup>\n    |^\n</colgroup>
+
+
+xhtml_prefabrykat_theadtfoottbody	<thead>\n    |^\n</thead>\n<tfoot>\n    \n</tfoot>\n<tbody>\n    \n</tbody>	B
+xhtml_prefabrykat_tabela1	<table summary="|^">\n    <tr>\n        <th></th>\n        <th></th>\n    </tr>\n    <tr>\n        <td></td>\n        <td></td>\n    </tr>\n</table>	B
+xhtml_prefabrykat_tabela2	<table summary="|^">\n    <tr>\n        <th scope="col"></th>\n        <th scope="col"></th>\n    </tr>\n    <tr>\n        <th scope="row"></th>\n        <th></th>\n    </tr>\n</table>	B
+xhtml_prefabrykat_tabela3	<table summary="">\n    <caption></caption>\n    <thead>\n        <tr>\n            <th scope="col"></th>\n            <th scope="col"></th>\n        </tr>\n    </thead>\n    <tfoot>\n        <tr>\n            <th scope="col"></th>\n            <th scope="col"></th>\n        </tr>\n    </tfoot>\n    <tbody>\n        <tr>\n            <th scope="row"></th>\n            <td></td>\n        </tr>\n    </tbody>\n</table>	B
+xhtml_prefabrykat_tabela4	<table summary="|^">\n    <caption></caption>\n    \n    <colgroup id="k1">\n        <!--  kolumna pierwsza  -->\n    </colgroup>\n    <colgroup id="k2">\n        <!--  zgrupowane kolumny druga i trzecia -->\n        <col />\n        <col />\n    </colgroup>\n    <colgroup span="3" id="k3">\n        <!--  zgrupowane kolumny czwarta, pi¹ta i szósta -->\n    </colgroup>    \n    \n    <thead>\n        <tr>\n            <th scope="col"></th>\n            <th scope="col"></th>\n            <th scope="col"></th>\n            <th scope="col"></th>\n            <th scope="col"></th>\n            <th scope="col"></th>\n        </tr>\n    </thead>\n    <tfoot>\n        <tr>\n        <tr>\n            <th scope="col"></th>\n            <th scope="col"></th>\n            <th scope="col"></th>\n            <th scope="col"></th>\n            <th scope="col"></th>\n            <th scope="col"></th>\n        </tr>\n        </tr>\n    </tfoot>\n    <tbody>\n        <tr>\n            <th scope="row"></th>\n            <td></td>\n            <td></td>\n            <td></td>\n            <td></td>\n            <td></td>\n        </tr>\n    </tbody>\n</table>
+
+
+xhtml_element_a	<a href="|">^</a>
+xhtml_element_link	<link href="^|" />
+xhtml_element_base	<base href="^|" />
+xhtml_element_a2	<a href="^|">^</a>
+
+
+xhtml_element_link_alternate	<link rel="alternate" href="^|" type="application/rss+xml" title="RSS" />	B
+xhtml_element_link_stylesheet	<link rel="stylesheet" href="^|" type="text/css" />	B
+xhtml_element_link_start	<link rel="start" href="^|" title="" />	B
+xhtml_element_link_next	<link rel="next" href="^|" title="" />	B
+xhtml_element_link_prev	<link rel="prev" href="^|" title="" />	B
+xhtml_element_link_contents	<link rel="contents" href="^|" title="" />	B
+xhtml_element_link_index	<link rel="index" href="^|" title="" />	B
+xhtml_element_link_glossary	<link rel="glossary" href="^|" title="" />	B
+xhtml_element_link_copyright	<link rel="copyright" href="^|" title="" />	B
+xhtml_element_link_chapter	<link rel="chapter" href="^|" title="" />	B
+xhtml_element_link_section	<link rel="section" href="^|" title="" />	B
+xhtml_element_link_subsection	<link rel="subsection" href="^|" title="" />	B
+xhtml_element_link_appendix	<link rel="appendix" href="^|" title="" />	B
+xhtml_element_link_help	<link rel="help" href="^|" title="" />	B
+xhtml_element_link_bookmark	<link rel="bookmark" href="^|" title="" />	B
+xhtml_element_link_sortcuticon	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="^|" />	B
+
+
+xhtml_element_img	<img src="^|" alt="" />
+xhtml_element_object	<object data="|" type="">^</object>
+xhtml_element_param	<param name="|" value="" valuetype="" />^
+
+xhtml_element_map	<map name="">\n  |^\n</map>
+xhtml_element_area	<area href="|" alt="" shape="" coords="" />^
+
+
+xhtml_style1	<link rel="stylesheet" type="text/css" href="style.css" />\n|^	B
+xhtml_style2	<link rel="stylesheet" type="text/css" href="|" />\n^	B
+xhtml_style3	<style type="text/css">\n|^\n</style>	B
+xhtml_style4	<link rel="stylesheet" type="text/css" href="print.css" media="print" />\n|^	B
+xhtml_style5	<link rel="stylesheet" type="text/css" href="style.css" />\n<?xml-stylesheet type="text/css" href="style.css" ?>|^	B
+xhtml_style6	<link rel="stylesheet" type="text/css" href="|" />\n<?xml-stylesheet type="text/css" href="" ?>^	B
+
+
+xhtml_element_hr	<hr />^|
+
+
+xhtml_element_form	<form action="|" method="post">\n  ^\n</form>	B
+
+
+xhtml_element_input	<input name="|" />^
+xhtml_element_input_checkbox	<input type="checkbox" name="|" value="" />^
+xhtml_element_input_radio	<input type="radio" name="|" value="" />^
+xhtml_element_input_submit	<input type="submit" value="|^" />
+xhtml_element_input_hidden	<input type="hidden"  name="|" value="" />^
+
+xhtml_element_input_type	<input type="|" name="" />^
+xhtml_element_input_text	<input type="text" name="|" value="" />^
+xhtml_element_input_password	<input type="password" name="|" />^
+xhtml_element_input_reset	<input type="reset" value="Reset" />|^
+xhtml_element_input_file	<input type="file" />|^
+xhtml_element_input_image	<input type="image" />|^
+xhtml_element_input_button	<input type="button" />|^
+
+xhtml_element_button	<button name="|" value="submit" type="submit">\n  ^\n</button>
+xhtml_element_select	<select name="|" size="1">\n  ^\n</select>
+xhtml_element_option	<option>^|</option>
+xhtml_element_optgroup	<optgroup label="|">\n  ^\n</optgroup>
+xhtml_element_textarea	<textarea name="|" rows="" cols="">\n  ^\n</textarea>
+xhtml_element_label	<label for="|">^</label>
+xhtml_element_fieldset	<fieldset>\n  |^\n</fieldset>
+xhtml_element_legend	<legend>\n  |^\n</legend>
+
+
+xhtml_script1	<script type="text/javascript" src="|">^</script>	B
+xhtml_script2	<script type="text/javascript">\n    ^|\n</script>	B
+xhtml_script3	<noscript>\n    ^|\n</noscript>	B
+
+
+xhtml_page_1	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">\n  <head>\n    <title>|</title>\n    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />\n  </head>\n<body>\n^\n</body>\n</html>	B
+xhtml_page_2	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">\n  <head>\n    <title>|</title>\n    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />\n    <style type="text/css">\n    \n    </style>\n  </head>\n<body>\n^\n</body>\n</html>	B
+xhtml_page_3	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">\n  <head>\n    <title>|</title>\n    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />\n    <link rel="stylesheet" type="text/css" href="style.css" />\n  </head>\n<body>\n^\n</body>\n</html>	B
+
+xhtml_meta_author	<meta name="author" content="Lorem Ipsum" />\n|^	B
+xhtml_meta_copyright	<meta name="copyright" content="(c)2007 Lorem Ipsum" />\n|^	B
+xhtml_meta_generator	<meta name="generator" content="NotH" />\n|^	B
+xhtml_meta_reply_to	<meta name="reply-to" content="loremipsum@example.net" />\n|^	B
+xhtml_meta_publisher	<meta name="publisher" content="Lorem Ipsum Publishing House" />\n|^	B
+xhtml_meta_company	<meta name="company" content="LoremIpsumSoftware" />\n|^	B
+
+xhtml_meta_content_language	<meta http-equiv="Content-Language" content="pl" />\n|^	B
+xhtml_meta_description	<meta name="description" content="" />\n|^	B
+xhtml_meta_keywords	<meta name="keywords" content="" />\n|^	B
+xhtml_meta_robots	<meta name="robots" content="all" />\n|^	B
+
+xhtml_meta_title	<meta name="title" content="" />\n|^	B
+xhtml_meta_abstract	<meta name="abstract" content="" />\n|^	B
+xhtml_meta_revisit_after	<meta name="revisit-after" content="5 Days" />\n|^	B
+xhtml_meta_googlebot	<meta name="googlebot" content="noarchive" />\n|^	B
+xhtml_meta_date	<meta name="date" content="Thu, 02 Jun 2005 9:50:06 GMT" />\n|^	B
+xhtml_meta_expires	<meta http-equiv="Expires" content="Thu, 09 Jun 2005 9:50:06 GMT" />\n|^	B
+xhtml_meta_cache_control	<meta http-equiv="Cache-Control" content="no-cache" />\n|^	B
+xhtml_meta_content_style_type	<meta http-equiv="Content-Style-Type" content="text/css" />\n|^	B
+xhtml_meta_content_script_type	<meta http-equiv="Content-Script-Type" content="text/javascript" />\n|^	B
+xhtml_meta_mssmarttagspreventparsing	<meta name="MSSmartTagsPreventParsing" content="true" />\n|^	B
+xhtml_meta_imagetoolbar	<meta http-equiv="imagetoolbar" content="no" />\n|^	B
+
+
+xhtml_meta_rating	<meta name="rating" content="general" />\n|^	B
+xhtml_meta_rating2	<meta name="rating" content="all" />\n|^	B
+xhtml_meta_doc_class	<meta name="doc-class" content="Living Document" />\n|^	B
+xhtml_meta_distribution	<meta name="distribution" content="global" />\n|^	B
+xhtml_meta_resource_type	<meta name="resource-type" content="document" />\n|^	B
+xhtml_meta_page_topic	<meta name="page-topic" content="Internet" />\n|^	B
+xhtml_meta_page_type	<meta name="page-type" content="Instruction" />\n|^	B
+xhtml_meta_audience	<meta name="audience" content="General" />\n|^	B
+
+
+
+
+xhtml_meta_all	<meta name="author" content="Lorem Ipsum" />\n<meta name="copyright" content="(c)2007 Lorem Ipsum" />\n<meta name="generator" content="NotH" />\n<meta name="reply-to" content="loremipsum@example.net" />\n<meta name="publisher" content="Lorem Ipsum Publishing House" />\n<meta name="company" content="LoremIpsumSoftware" />\n<meta http-equiv="Content-Language" content="pl" />\n<meta name="description" content="" />\n<meta name="keywords" content="" />\n<meta name="robots" content="all" />\n<meta name="googlebot" content="noarchive" />\n<meta name="date" content="Thu, 02 Jun 2005 9:50:06 GMT" />\n<meta http-equiv="Expires" content="Thu, 09 Jun 2005 9:50:06 GMT" />\n<meta http-equiv="Cache-Control" content="no-cache" />\n<meta http-equiv="Content-Style-Type" content="text/css" />\n<meta http-equiv="Content-Script-Type" content="text/javascript" />\n<meta name="MSSmartTagsPreventParsing" content="true" />\n<meta http-equiv="imagetoolbar" content="no" />\n|^	B
+
+
+
+
+xhtml_lorem_ipsum_1	^|Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\nSuspendisse nunc pede, aliquet at, tincidunt id, sodales in,\nnulla. Pellentesque viverra ipsum ac quam. In hac habitasse\nplatea dictumst. In eget tellus. Nullam placerat, felis in\nscelerisque sollicitudin, magna velit dictum mi, ac molestie\nquam urna nec nibh. Morbi facilisis. Suspendisse pulvinar\nnisl at elit. Sed euismod orci sed est. Donec tempor tellus\nsit amet ante. Aenean quis leo. Pellentesque habitant morbi\ntristique senectus et netus et malesuada fames ac turpis\negestas. Duis sapien. Nam elementum velit nec mauris.\nCurabitur non turpis quis felis placerat luctus.\nPellentesque id mi sit amet quam fermentum convallis. Duis\nnec lacus. Donec laoreet. Suspendisse vel nisl eget nibh\ndapibus ultricies. Donec ornare. Vestibulum lorem. In massa\nneque, dapibus a, tempor ut, ultricies at, neque. Curabitur\nat risus. Sed ut magna vel odio molestie tincidunt. Mauris\nconsectetuer, velit a elementum malesuada, pede mauris\ninterdum risus, vel commodoarcu risus eget tellus. Proin\nsagittis, felis non dictum sodales, libero est varius diam,\neget vehicula lorem metus eu velit.	B
+xhtml_lorem_ipsum_2	^|Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\nSuspendisse nunc pede, aliquet at, tincidunt id, sodales in,\nnulla. Pellentesque viverra ipsum ac quam. In hac habitasse\nplatea dictumst. In eget tellus. Nullam placerat, felis in\nscelerisque sollicitudin, magna velit dictum mi, ac molestie\nquam urna nec nibh. Morbi facilisis. Suspendisse pulvinar\nnisl at elit. Sed euismod orci sed est. Donec tempor tellus\nsit amet ante. Aenean quis leo. Pellentesque habitant morbi\ntristique senectus et netus et malesuada fames ac turpis\negestas. Duis sapien. Nam elementum velit nec mauris.\n\nCurabitur non turpis quis felis placerat luctus.\nPellentesque id mi sit amet quam fermentum convallis. Duis\nnec lacus. Donec laoreet. Suspendisse vel nisl eget nibh\ndapibus ultricies. Donec ornare. Vestibulum lorem. In massa\nneque, dapibus a, tempor ut, ultricies at, neque. Curabitur\nat risus. Sed ut magna vel odio molestie tincidunt. Mauris\nconsectetuer, velit a elementum malesuada, pede mauris\ninterdum risus, vel commodoarcu risus eget tellus. Proin\nsagittis, felis non dictum sodales, libero est varius diam,\neget vehicula lorem metus eu velit.	B
+
+
+
+xml_prolog	<?xml version="1.0" encoding="utf-8"?>|^	B
+xml_stylesheet	<?xml-stylesheet href="style.css" type="text/css"?>|^	B

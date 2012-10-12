@@ -1,0 +1,426 @@
+Selektory
+	Selektor id|css_selector_id
+	Selektor class|css_selector_class
+	body/html
+		Selektor body|css_selector_body
+		Selektor html|css_selector_html
+		Selektor html, body|css_selector_html_body
+		Selektor address|css_selector_address
+	Nag³ówki
+		Selektor h1|css_selector_h1
+		Selektor h2|css_selector_h2
+		Selektor h3|css_selector_h3
+		Selektor h4|css_selector_h4
+		Selektor h5|css_selector_h5
+		Selektor h6|css_selector_h6
+	Tekst
+		Selektor p|css_selector_p
+		Selektor pre|css_selector_pre
+		Selektor br|css_selector_br
+		Elementy frazowe
+			Selektor em|css_selector_em
+			Selektor strong|css_selector_strong
+			Selektor dfn|css_selector_dfn
+			Selektor code|css_selector_code
+			Selektor samp|css_selector_samp
+			Selektor kbd|css_selector_kbd
+			Selektor var|css_selector_var
+			Selektor cite|css_selector_cite
+			Selektor abbr|css_selector_abbr
+			Selektor acronym|css_selector_acronym
+		Cytaty
+			Selektor q|css_selector_q
+			Selektor blockquote|css_selector_blockquote
+		Indeksy
+			Selektor sup|css_selector_sub
+			Selektor sub|css_selector_sup
+	Ogólne
+		Selektor span|css_selector_span
+		Selektor div|css_selector_div
+	Listy
+		Selektor ul|css_selector_ul
+		Selektor ol|css_selector_ol
+		Selektor li|css_selector_li
+		Selektor dl|css_selector_dl
+		Selektor dt|css_selector_dt
+		Selektor dd|css_selector_dd
+	Tabele
+		Selektor table|css_selector_table
+		Selektor td|css_selector_td
+		Selektor th|css_selector_th
+		Selektor tr|css_selector_tr
+		Selektor caption|css_selector_caption
+		Selektor thead|css_selector_thead
+		Selektor tfoot|css_selector_tfoot
+		Selektor tbody|css_selector_tbody
+	Hiper³¹cza
+		Selektor a|css_selector_a
+		Selektor a:active|css_selector_a_active
+		Selektor a:hover|css_selector_a_hover
+		Selektor a:visited|css_selector_a_visited
+		Selektor a:link|css_selector_a_link
+		Selektor LVHA|css_selector_a_lvha
+	Multimedia
+		Selektor img|css_selector_img
+	Formularze
+		Selektor form|css_selector_form
+		Selektor input|css_selector_input
+		Selektor button|css_selector_button
+		Selektor select|css_selector_select
+		Selektor option|css_selector_option
+		Selektor optgroup|css_selector_optgroup
+		Selektor textarea|css_selector_textarea
+		Selektor label|css_selector_label
+		Selektor fieldset|css_selector_fieldset
+		Selektor legend|css_selector_legend
+	Inne
+		Selektor hr|css_selector_hr
+	Zmiany
+		Selektor ins|css_selector_ins
+		Selektor del|css_selector_del
+Czcionki i tekst
+	font
+		font|css_font
+		font, ver. 1|css_font1
+		font, ver. 2|css_font2
+		font, ver. 3|css_font3
+		font, ver. 4|css_font4
+		font, ver. 5|css_font5
+		font, ver. 6|css_font6
+	font-family
+		font-family|css_font_family
+		Courier New|css_font_family_courier_new
+		Georgia|css_font_family_georgia
+		Tahoma|css_font_family_tahoma
+		Times New Roman|css_font_family_times_new_roman
+		Trebuchet MS|css_font_family_trebuchet
+		Verdana|css_font_family_verdana
+	font-size
+		font-size|css_font_size
+		100%|css_font_size_percent
+		1em|css_font_size_1em
+		larger|css_font_size_larger
+		smaller|css_font_size_smaller
+		xx-small|css_font_size_xx_small
+		x-small|css_font_size_x_small
+		small|css_font_size_small
+		medium|css_font_size_medium
+		large|css_font_size_large
+		x-large|css_font_size_x_large
+		xx-large|css_font_size_xx_large
+	font-style
+		normal|css_font_style_normal
+		italic|css_font_style_italic
+	font-variant
+		normal|css_font_variant_normal
+		small-caps|css_font_variant_small_caps
+	font-weight
+		normal|css_font_weight_normal
+		bold|css_font_weight_bold
+	text-align
+		left|css_text_align_left
+		right|css_text_align_right
+		center|css_text_align_center
+		justify|css_text_align_justify
+	text-decoration
+		none|css_text_decoration_none
+		underline|css_text_decoration_underline
+		overline|css_text_decoration_overline
+		line-through|css_text_decoration_line_through
+	text-indent
+		text-indent|css_text_indent
+		0|css_text_indent_0
+		2em|css_text_indent_2em
+	text-transform
+		uppercase|css_text_transform_uppercase
+		lowercase|css_text_transform_lowercase
+		capitalize|css_text_transform_capitalize
+		none|css_text_transform_none
+	word-spacing
+		word-spacing|css_word_spacing
+		0|css_word_spacing_0
+		1em|css_word_spacing_1em
+	letter-spacing
+		letter-spacing|css_letter_spacing
+		0|css_letter_spacing_0
+		0.2em|css_letter_spacing_02em
+	white-space
+		normal|css_white_space_normal
+		pre|css_white_space_pre
+		nowrap|css_white_space_nowrap
+		pre-wrap|css_white_space_pre_wrap
+		pre-line|css_white_space_pre_line
+	line-height
+		line-height|css_line_height
+		100%|css_line_height_100
+		0|css_line_height_0
+	vertical-align
+		vertical-align|css_vertical_align
+		vertical-align: baseline;|css_vertical_align_baseline
+		vertical-align: sub;|css_vertical_align_sub
+		vertical-align: sup;|css_vertical_align_sup
+		vertical-align: super;|css_vertical_align_super
+		vertical-align: top;|css_vertical_align_top
+		vertical-align: text-top;|css_vertical_align_text_top
+		vertical-align: middle;|css_vertical_align_middle
+		vertical-align: bottom;|css_vertical_align_bottom
+		vertical-align: text-bottom;|css_vertical_align_text_bottom
+		vertical-align: 100px;|css_vertical_align_100px
+		vertical-align: 2ex;|css_vertical_align_2ex
+		vertical-align: 5em;|css_vertical_align_5em
+Marginesy
+	margin|css_margin
+	0|css_margin_0
+	0 auto|css_margin_0_auto
+	100px|css_margin_100
+	50px 100px|css_margin_50_100
+	10px 20px 30px 40px|css_margin_10_20_30_40
+	top/right/bottom/left
+		margin-top|css_margin_top
+		margin-right|css_margin_right
+		margin-bottom|css_margin_bottom
+		margin-left|css_margin_left
+Dope³nienie
+	padding|css_padding
+	0|css_padding_0
+	100px|css_padding_100
+	50px 100px|css_padding_50_100
+	10px 20px 30px 40px|css_padding_10_20_30_40
+	top/right/bottom/left
+		padding-top|css_padding_top
+		padding-right|css_padding_right
+		padding-bottom|css_padding_bottom
+		padding-left|css_padding_left
+Obramowanie
+	border: 1px|css_border
+	border: 3px|css_border2
+	border: none|css_border_none
+	border-collapse
+		collapse|css_border_collapse
+		separate|css_border_collapse2
+	border-color
+		border-color|css_border_color
+		border-color: red|css_border_color_red
+		border-color: rgb(...);|css_border_color_rgb
+		border-color: #...;|css_border_color_hash
+	border-spacing
+		border-spacing|css_border_spacing
+		border-spacing: 0;|css_border_spacing0
+		border-spacing: 5px;|css_border_spacing5
+	border-style
+		border-style|css_border_style
+		border-style: none;|css_border_style_none
+		border-style: hidden;|css_border_style_hidden
+		border-style: dotted;|css_border_style_dotted
+		border-style: dashed;|css_border_style_dashed
+		border-style: solid;|css_border_style_solid
+		border-style: double;|css_border_style_double
+		border-style: groove;|css_border_style_groove
+		border-style: ridge;|css_border_style_ridge
+		border-style: inset;|css_border_style_inset
+		border-style: outset;|css_border_style_outset
+	border-width
+		border-width|css_border_width
+		border-width: 0;|css_border_width0
+		border-width: 5px;|css_border_width5
+	top/right/bottom/left
+		border-top
+			border-top|css_border_top
+			border-top-color|css_border_top_color
+			border-top-style|css_border_top_style
+			border-top-width|css_border_top_width
+		border-right
+			border-right|css_border_right
+			border-right-color|css_border_right_color
+			border-right-style|css_border_right_style
+			border-right-width|css_border_right_width
+		border-bottom
+			border-bottom|css_border_bottom
+			border-bottom-color|css_border_bottom_color
+			border-bottom-style|css_border_bottom_style
+			border-bottom-width|css_border_bottom_width
+		border-left
+			border-left|css_border_left
+			border-left-color|css_border_left_color
+			border-left-style|css_border_left_style
+			border-left-width|css_border_left_width
+Kolory
+	color|css_color
+	background|css_background
+Pude³ka
+	display
+		display|css_box_display
+		display: inline;|css_box_display_inline
+		display: block;|css_box_display_block
+		display: none;|css_box_display_none
+		display: list-item;|css_box_display_list_item
+		display: run-in;|css_box_display_run_in
+		display: inline-block;|css_box_display_inline_block
+		display: table;|css_box_display_table
+		display: inline-table;|css_box_display_inline_table
+		display: row-group;|css_box_display_row_group
+		display: table-header-group;|css_box_display_table_header_group
+		display: table-footer-group;|css_box_display_table_footer_group
+		display: table-row;|css_box_display_table_row
+		display: table-column-group;|css_box_display_table_column_group
+		display: table-column;|css_box_display_table_column
+		display: table-cell;|css_box_display_table_cell
+		display: table-caption;|css_box_display_table_caption
+	width
+		width|css_box_width
+		width: 100px;|css_box_width100
+		min-width|css_box_min_width
+		min-width: 100px;|css_box_min_width100
+		max-width|css_box_max_width
+		max-width: 100px;|css_box_max_width100
+	height
+		height|css_box_height
+		height: 100px;|css_box_height100
+		min-height|css_box_min_height
+		min-height: 100px;|css_box_min_height100
+		max-height|css_box_max_height
+		max-height: 100px;|css_box_max_height100
+	top/right/bottom/left
+		top|css_box_top
+		top: 100px;|css_box_top100
+		right|css_box_right
+		right: 100px|css_box_right100
+		bottom|css_box_bottom
+		bottom: 100px;|css_box_bottom100
+		left|css_box_left
+		left: 100px;|css_box_left100
+	position
+		position|css_box_position
+		position: static;|css_box_position_static
+		position: relative;|css_box_position_relative
+		position: absolute;|css_box_position_absolute
+		position: fixed;|css_box_position_fixed
+	float
+		float|css_box_float
+		float: left;|css_box_float_left
+		float: right;|css_box_float_right
+		float: none;|css_box_float_none
+	clear
+		clear|css_box_clear
+		clear: left;|css_box_clear_left
+		clear: right;|css_box_clear_right
+		clear: none;|css_box_clear_none
+	z-index
+		z-index|css_box_z_index
+		z-index: 100;|css_box_z_index100
+Listy
+	list-style|css_list_style
+	list-style-image
+		list-style-image|css_list_style_image
+		list-style-image: none;|css_list_style_image_none
+	list-style-position
+		list-style-position|css_list_style_position
+		list-style-position: inside;|css_list_style_position_inside
+		list-style-position: outside;|css_list_style_position_outside
+	list-style-type
+		list-style-type|css_list_style_type
+		list-style-type; none;|css_list_style_type_none
+		list-style-type; disc;|css_list_style_type_disc
+		list-style-type; circle;|css_list_style_type_circle
+		list-style-type; square;|css_list_style_type_square
+		list-style-type; decimal;|css_list_style_type_decimal
+		list-style-type; decimal-leading-zero;|css_list_style_type_decimal_leading_zero
+		list-style-type; lower-roman;|css_list_style_type_lower_roman
+		list-style-type; upper-roman;|css_list_style_type_upper_roman
+		list-style-type; lower-greek;|css_list_style_type_lower_greek
+		list-style-type; lower-latin;|css_list_style_type_lower_latin
+		list-style-type; upper-latin;|css_list_style_type_upper_latin
+		list-style-type; armenian;|css_list_style_type_armenian
+		list-style-type; georgian;|css_list_style_type_georgian
+		list-style-type; lower-alpha;|css_list_style_type_lower_alpha
+		list-style-type; upper-alpha;|css_list_style_type_uper_alpha
+Tabele
+	tabela|css_tabela
+	caption-side
+		caption-side|css_caption_side
+		caption-side: top;|css_caption_side_top
+		caption-side: bottom;|css_caption_side_bottom
+	empty-cells
+		empty-cells|css_empty_cells
+		empty-cells: hide|css_empty_cells_hide
+		empty-cells: show|css_empty_cells_show
+	table-layout
+		table-layout: auto|css_table_layout_auto
+		table-layout: fixed|css_table_layout_fixed
+T³a
+	background
+		background, ver. 1|css_background
+		background, ver. 2|css_background2
+	background-attachment
+		background-attachment|css_background_attachment
+		background-attachment: scroll;|css_background_attachment_scroll
+		background-attachment: fixed;|css_background_attachment_fixed
+	background-color
+		background-color|css_background_color
+		background-color: transparent;|css_background_color_transparent
+	background-image
+		background-image|css_background_image
+		background-image: none;|css_background_image_none
+	background-position
+		background-position|css_background_position
+		background-position: left top;|css_background_position_left_top
+		background-position: center top;|css_background_position_center_top
+		background-position: center center;|css_background_position_center_center
+		background-position: 20% 60%;|css_background_position_procent
+		background-position: 100px 200px;|css_background_position_px
+	background-repeat
+		background-repeat|css_background_repeat
+		background-repeat: repeat;|css_background_repeat_repeat
+		background-repeat: repeat-x;|css_background_repeat_repeat_x
+		background-repeat: repeat-y;|css_background_repeat_repeat_y
+		background-repeat: no-repeat;|css_background_repeat_no_repeat
+Efekty wizualne
+	clip
+		clip|css_clip
+		clip: rect()|css_clip_rect
+		clip: auto|css_clip_auto
+	overflow
+		overflow|css_overflow
+		overflow: visible|css_overflow_visible
+		overflow: hidden|css_overflow_hidden
+		overflow: scroll|css_overflow_scroll
+		overflow: auto|css_overflow_auto
+	visibility
+		visibility: visible|css_visibility_visible
+		visibility: hidden|css_visibility_hidden
+		visibility: collapse|css_visibility_collapse
+Inne
+	cursor
+		cursor|css_cursor
+		cursor: crosshair|css_cursor_crosshair
+		cursor: default|css_cursor_default
+		cursor: pointer|css_cursor_pointer
+		cursor: move|css_cursor_move
+		cursor: e-resize|css_cursor_e_resize
+		cursor: ne-resize|css_cursor_ne_resize
+		cursor: nw-resize|css_cursor_nw_resize
+		cursor: n-resize|css_cursor_n_resize
+		cursor: se-resize|css_cursor_se_resize
+		cursor: sw-resize|css_cursor_sw_resize
+		cursor: s-resize|css_cursor_s_resize
+		cursor: w-resize|css_cursor_w_resize
+		cursor: text|css_cursor_text
+		cursor: wait|css_cursor_wait
+		cursor: help|css_cursor_help
+		cursor: progress|css_cursor_progress
+	page-break
+		page-break-after
+			page-break-after: auto|css_page_break_after_auto
+			page-break-after: always|css_page_break_after_always
+			page-break-after: after|css_page_break_after_avoid
+			page-break-after: left|css_page_break_after_left
+			page-break-after: right|css_page_break_after_right
+		page-break-before
+			page-break-before: auto|css_page_break_before_auto
+			page-break-before: always|css_page_break_before_always
+			page-break-before: avoid|css_page_break_before_avoid
+			page-break-before: left|css_page_break_before_left
+			page-break-before: right|css_page_break_before_right
+		page-break-inside
+			page-break-inside: auto|css_page_break_inside_auto
+			page-break-inside: avoid|css_page_break_inside_avoid
