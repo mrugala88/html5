@@ -1,0 +1,21 @@
+.wrapper {
+    margin: 0 auto;
+	width: 740px;
+	border: 5px solid blue;
+    background: red;
+    overflow: hidden;
+}
+.left {
+	border: 5px solid yellow;
+    background: green;
+
+	width: 190px;
+	float: left;
+}
+.right {
+	border: 5px solid pink;
+    background: brown;
+
+	width: 530px;
+	float: right;
+}
