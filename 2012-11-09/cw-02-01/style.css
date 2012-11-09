@@ -1,0 +1,25 @@
+
+div  {
+    background: red;
+    width: 600px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+
+    background: yellow;
+    width: 100px;
+    height: 40px;
+
+    left: 550px;
+    top: 280px;
+
+    position: absolute;
+
+    overflow: hidden;
+
+}

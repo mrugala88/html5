@@ -1,0 +1,33 @@
+nav {
+    background: url(menu.jpg);
+    width: 800px;
+    height: 400px;
+    position: relative;
+}
+
+#o1 {
+    position: absolute;
+    width: 215px;
+    height: 123px;
+    background: url(lorem.jpg);
+    left: 95px;
+    top: 246px;
+}
+
+#o2 {
+    position: absolute;
+    width: 300px;
+    height: 95px;
+    background: url(ipsum.jpg);
+    left: 252px;
+    top: 107px;
+}
+
+#o3 {
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    background: url(dolor.jpg);
+    left: 572px;
+    top: 166px;
+}
