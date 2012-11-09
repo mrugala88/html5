@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+hgroup {
+    background: black;
+    padding: 10px;
+    width: 500px;
+    margin: 0 auto;
+    height: 400px;
+    position: relative;
+
+}
+
+h1 {
+    position: absolute;
+    background: red;
+    width: 100px;
+    height: 30px;
+    left: 5px;
+    bottom: 5px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
