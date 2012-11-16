@@ -1,0 +1,55 @@
+body {
+    background: url('body.png') repeat-x;
+}
+
+header {
+    height: 189px;
+    width: 800px;
+/*    background: red; */
+    margin: 0 auto;
+    background: url('sprite.png') no-repeat 0 0;
+    position: relative;
+
+}
+
+nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    height: 189px;
+    width: 800px;
+/*    background: yellow;*/
+}
+
+ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    height: 189px;
+    width: 800px;
+/*    background: pink;*/
+}
+
+#lorem {
+    position: absolute;
+    left: 396px;
+    top: 71px;
+    width: 136px;
+    height: 67px;
+/*    background: green; */
+    background: url('sprite.png') no-repeat 0px -189px;
+
+}
+
+
+#ipsum {
+    position: absolute;
+    left: 561px;
+    top: 90px;
+    width: 155px;
+    height: 72px;
+/*    background: green; */
+    background: url('sprite.png') no-repeat -136px -189px;
+}
